@@ -17,9 +17,18 @@ Source Code Pro L solves this problem the way typographers have always solved il
 
 [Download OTF font](https://github.com/i-tu/source-code-pro-L/releases/download/v0.1/SourceCodeProL.zip)
 
-## Support 
+## Support
 
-Please note that Code Ligatures are highly experimental. TextEdit, Atom and the Haskell IDE Leksah support OpenType. Let me know if there are any others. Support is missing from many popular editors, such as Sublime Text and terminal-based editors such as Vim.
+### Editors with ligature support
++ Leksah
++ TextEdit
++ Atom _(add `text-rendering: optimizeLegibility;` to your `.editor` css.)_
++ Chocolat
+
+### No ligature support
+- Any terminal editor
+- Sublime Text
+- MacVim
 
 ## To Do
 1. Glyph substitution for `\` → `λ` and `.` → `∘`
