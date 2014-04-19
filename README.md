@@ -18,8 +18,9 @@ Source Code Pro L solves this problem the way typographers have always solved il
 [Download OTF font](https://github.com/i-tu/source-code-pro-L/releases/download/v0.1/SourceCodeProL.zip)
 
 ## Support
+Let me know how your editor is supported.
 
-### Editors with ligature support
+### Editors with known ligature support
 + Leksah
 + TextEdit
 + Atom _(add `text-rendering: optimizeLegibility;` to your `.editor` css.)_
@@ -29,6 +30,7 @@ Source Code Pro L solves this problem the way typographers have always solved il
 - Any terminal editor
 - Sublime Text
 - MacVim
+
 
 ## To Do
 1. Glyph substitution for `\` → `λ` and `.` → `∘`
