@@ -1,56 +1,20 @@
-# Source Code Pro
+_N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe/source-code-pro)
 
-Source Code Pro is a set of OpenType fonts that have been designed to work well
-in user interface (UI) environments. In addition to a functional OpenType font, this open
-source project provides all of the source files that were used to build this OpenType font
-by using the AFDKO makeotf tool.
+Programming languages are limited to relatively few characters. As a result of a limited character set, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit.
 
-## Download font binaries (OTF and TTF files)
+Composite glyphs become especially  problematic in languages such as Haskell which utilize these complicated operators (`<-`, `::`, `=>`, `-<`, `>>=` etc.) extensively (over 100 in `lens` alone!). Prettified code improves readability considerably - some Haskell programmers have even resorted to unicode symbols (ie. `⇒`, `←` etc.). This merely opens a whole new can of worms. In addition to encoding/compatibility problems and all the reasons it never worked out in APL, these symbols are one-character-wide and therefore eye-strainingly small.
 
-The font binaries are not part of the repository. They can be
-[downloaded from SourceForge here](https://sourceforge.net/projects/sourcecodepro.adobe/files/).
+Source Code Pro L solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures.
 
-## Installation instructions
+####Source Code Pro L with ligature support
+![Source Code Pro L Sample](SourceCodeProLSample.png?raw=true)
 
-* [Mac OS X](http://support.apple.com/kb/HT2509)
-* [Windows](http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts)
-* [Linux/Unix-based systems](https://github.com/adobe/source-code-pro/issues/17#issuecomment-8967116)
-
-## Building from source
-
-### Requirements
-
-To build the binary font files from source, you need to have installed the
-[Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO). The AFDKO
-tools are widely used for font development today, and are part of most font
-editor applications.
-
-### Building one font
-
-The key to building OTF or TTF fonts is `makeotf`, which is part of the AFDKO toolset.  
-Information and usage instructions can be found by executing `makeotf -h`.
-
-In this repository, all necessary files are in place for building the OTF and TTF fonts.  
-For example, build a binary OTF font for the Regular style like this:
-
-```sh
-$ cd Roman/Regular/
-$ makeotf -r
-```
-
-### Building all fonts
-
-For convenience, a shell script named `build.sh` is provided in the root directory.  
-It builds all OTFs and TTFs, and can be executed by typing:
-
-```sh
-$ ./build.sh
-```
-
-## Getting Involved
-
-Send suggestions for changes to the Source Code OpenType font project maintainer,
-phunt@adobe.com, for consideration.
+####Source Code Pro
+![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
 
+[Download OTF font](https://github.com/i-tu/source-code-pro-L/releases/download/v0.1/SourceCodeProL.zip)
 
+## Support 
+
+TextEdit, Atom and the Haskell IDE Leksah support OpenType. Support is missing from many popular editors though, such as Sublime Text and terminal-based editors such as Vim.
