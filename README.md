@@ -1,5 +1,7 @@
 _N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe/source-code-pro)
 
+##Source Code Pro L
+
 Programming languages are limited to relatively few characters. As a result of a limited character set, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit.
 
 Composite glyphs become especially  problematic in languages such as Haskell which utilize these complicated operators (`<-`, `::`, `=>`, `-<`, `>>=` etc.) extensively (over 100 in `lens` alone!). Prettified code improves readability considerably - some Haskell programmers have even resorted to unicode symbols (ie. `⇒`, `←` etc.). This merely opens a whole new can of worms. In addition to encoding/compatibility problems and all the reasons it never worked out in APL, these symbols are one-character-wide and therefore eye-strainingly small.
@@ -19,6 +21,6 @@ Source Code Pro L solves this problem the way typographers have always solved il
 
 Please note that Code Ligatures are highly experimental. TextEdit, Atom and the Haskell IDE Leksah support OpenType. Let me know if there are any others. Support is missing from many popular editors, such as Sublime Text and terminal-based editors such as Vim.
 
-# To Do
+## To Do
 1. Glyph substitution for `\` → `λ` and `.` → `∘`
 2. Terminal support (for example iTerm2)
