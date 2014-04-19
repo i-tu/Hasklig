@@ -18,3 +18,7 @@ Source Code Pro L solves this problem the way typographers have always solved il
 ## Support 
 
 Please note that Code Ligatures are highly experimental. TextEdit, Atom and the Haskell IDE Leksah support OpenType. Let me know if there are any others. Support is missing from many popular editors, such as Sublime Text and terminal-based editors such as Vim.
+
+# To Do
+1. Glyph substitution for `\` → `λ` and `.` → `∘`
+2. Terminal support (for example iTerm2)
