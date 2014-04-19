@@ -30,7 +30,7 @@ Let me know how your editor is supported.
 
 ### No ligature support
 - Any terminal editor
-- Sublime Text
+- Sublime Text _(Vote for the enhancement [here](http://sublimetext.userecho.com/topic/433445-/))_
 - MacVim
 
 
