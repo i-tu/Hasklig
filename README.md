@@ -27,6 +27,7 @@ Let me know how your editor is supported.
 + Chocolat
 + Kate
 + KWrite
++ gEdit
 
 ### No ligature support
 - Any terminal editor
