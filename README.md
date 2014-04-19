@@ -6,7 +6,7 @@ Programming languages are limited to relatively few characters. As a result of a
 
 Composite glyphs become especially  problematic in languages such as Haskell which utilize these complicated operators (`<-`, `::`, `=>`, `-<`, `>>=` etc.) extensively (over 100 in `lens` alone!). Prettified code improves readability considerably - some Haskell programmers have even resorted to unicode symbols (ie. `⇒`, `←` etc.). This merely opens a whole new can of worms. In addition to encoding/compatibility problems and all the reasons it never worked out in APL, these symbols are one-character-wide and therefore eye-strainingly small.
 
-Source Code Pro L solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures.
+Source Code Pro L solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same -- only the representation changes.
 
 ####Source Code Pro L with ligature support
 ![Source Code Pro L Sample](SourceCodeProLSample.png?raw=true)
