@@ -17,4 +17,4 @@ Source Code Pro L solves this problem the way typographers have always solved il
 
 ## Support 
 
-TextEdit, Atom and the Haskell IDE Leksah support OpenType. Support is missing from many popular editors though, such as Sublime Text and terminal-based editors such as Vim.
+Please note that Code Ligatures are highly experimental. TextEdit, Atom and the Haskell IDE Leksah support OpenType. Let me know if there are any others. Support is missing from many popular editors, such as Sublime Text and terminal-based editors such as Vim.
