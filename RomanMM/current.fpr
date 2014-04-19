@@ -1,0 +1,3 @@
+InputFontPath	./mmfont.pfa
+FontMenuDBPath	../FontMenuNameDB
+OutputFontPath	./SourceCodePro_368_.otf
