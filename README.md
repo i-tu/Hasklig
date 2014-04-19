@@ -25,6 +25,8 @@ Let me know how your editor is supported.
 + TextEdit
 + Atom _(add `text-rendering: optimizeLegibility;` to your `.editor` css.)_
 + Chocolat
++ Kate
++ KWrite
 
 ### No ligature support
 - Any terminal editor
