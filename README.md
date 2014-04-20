@@ -8,10 +8,10 @@ Composite glyphs become especially  problematic in languages such as Haskell whi
 
 Source Code Pro L solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same — only the representation changes.
 
-####Source Code Pro L with ligature support
+#### Hasklig
 ![Source Code Pro L Sample](SourceCodeProLSample.png?raw=true)
 
-####Source Code Pro
+#### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
 
