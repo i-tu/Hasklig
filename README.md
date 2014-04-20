@@ -20,7 +20,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 ## Support
 Let me know how your editor is supported.
 
-### Editors with known ligature support
+### Editors and terminals with known ligature support
 + Leksah
 + TextEdit
 + Atom _(add `text-rendering: optimizeLegibility;` to your `.editor` css.)_
@@ -28,9 +28,11 @@ Let me know how your editor is supported.
 + Kate
 + KWrite
 + gEdit
++ Konsole
 
 ### No ligature support
-- Any terminal editor
+- iTerm2
+- Terminal  (OSX)
 - Sublime Text _(Vote for the enhancement [here](http://sublimetext.userecho.com/topic/433445-/))_
 - MacVim
 
