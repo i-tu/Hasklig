@@ -8,14 +8,14 @@ Composite glyphs become especially  problematic in languages such as Haskell whi
 
 Hasklig solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same — only the representation changes.
 
+[**Download**](https://github.com/i-tu/Hasklig/releases/download/v0.2/Hasklig_0.2.zip)
+
 #### Hasklig
 ![Hasklig Sample](SourceCodeProLSample.png?raw=true)
 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
-
-[Download OTF font](https://github.com/i-tu/source-code-pro-L/releases/download/v0.1/SourceCodeProL.zip)
 
 ## Support
 Let me know how your editor is supported.
