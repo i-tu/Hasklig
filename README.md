@@ -29,6 +29,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 + TextEdit
 
 ### No support
+- Aquamacs
 - gVim (_output corrupted_)
 - iTerm2
 - MacVim
