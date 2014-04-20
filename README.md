@@ -1,6 +1,6 @@
 _N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe/source-code-pro)
 
-## Hasklig - Ligatures for Haskell
+## Hasklig - Ligatures for Haskell code
 
 Programming languages are limited to relatively few characters. As a result of a limited character set, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit.
 
