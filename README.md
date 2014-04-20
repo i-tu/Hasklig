@@ -32,7 +32,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 - gVim (_output corrupted_)
 - iTerm2
 - MacVim
-- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))_
+- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
 
 ## To Do
