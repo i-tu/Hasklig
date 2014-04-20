@@ -11,7 +11,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 [**Download**](https://github.com/i-tu/Hasklig/releases/download/v0.2/Hasklig_0.2.zip)
 
 #### Hasklig
-![Hasklig Sample](SourceCodeProLSample.png?raw=true)
+![Hasklig Sample](hasklig_example.png?raw=true)
 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
