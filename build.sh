@@ -1,6 +1,6 @@
 #!/bin/sh
 
-family=SourceCodeProL
+family=Hasklig
 weights='Black Bold ExtraLight Light Medium Regular Semibold'
 
 # clean existing build artifacts

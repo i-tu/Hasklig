@@ -1,8 +1,8 @@
 #KEYS:FamilyName	FontName	FullName	Weight	Coords	IsBold
-Source Code Pro L	SourceCodeProL-ExtraLight	Source Code Pro L ExtraLight	ExtraLight	(0)	0
-Source Code Pro L	SourceCodeProL-Light	Source Code Pro L Light	Light	(100)	0
-Source Code Pro L	SourceCodeProL-Regular	Source Code L Pro	Regular	(368)	0
-Source Code Pro L	SourceCodeProL-Medium	Source Code Pro L Medium	Medium	(486)	0
-Source Code Pro L	SourceCodeProL-Semibold	Source Code L Pro Semibold	Semibold	(600)	0
-Source Code Pro L	SourceCodeProL-Bold	Source Code Pro L Bold	Bold	(824)	0
-Source Code Pro L	SourceCodeProL-Black	Source Code Pro L Black	Black	(1000)	0
+Hasklig	Hasklig-ExtraLight	Hasklig ExtraLight	ExtraLight	(0)	0
+Hasklig	Hasklig-Light	Hasklig Light	Light	(100)	0
+Hasklig	Hasklig-Regular	Hasklig Regular	Regular	(368)	0
+Hasklig	Hasklig-Medium	Hasklig Medium	Medium	(486)	0
+Hasklig	Hasklig-Semibold	Source Code L Pro Semibold	Semibold	(600)	0
+Hasklig	Hasklig-Bold	Hasklig Bold	Bold	(824)	0
+Hasklig	Hasklig-Black	Hasklig Black	Black	(1000)	0
