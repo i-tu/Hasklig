@@ -38,3 +38,5 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 ## To Do
 1. Contextual glyph substitution for `\` → `λ` and `.` → `∘`
 2. Terminal support (for example iTerm2)
+3. Discretionary or alternate ligatures for some characters (_notably_ `/=` _with a slash in the middle, and pretty printed less-equals and greater-equals signs_)
+4. Version for C-esque languages (`->`, `!=`, `==`)
