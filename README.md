@@ -10,7 +10,7 @@ Some Haskell programmers have resorted to unicode symbols in code as a solution 
 
 Hasklig solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same — only the representation changes.
 
-[**Download**](https://github.com/i-tu/Hasklig/releases/download/v0.2/Hasklig_0.2.zip)
+[**Download Font Family**](https://github.com/i-tu/Hasklig/releases/download/v0.2/Hasklig_0.2.zip)
 
 #### Hasklig
 ![Hasklig Sample](hasklig_example.png?raw=true)
@@ -19,7 +19,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
 ### Editors and Terminals with support
-+ Atom _(add `text-rendering: optimizeLegibility;` to your `.editor` css.)_
++ Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `.editor` _css._)
 + Chocolat
 + gEdit
 + Kate
@@ -29,11 +29,11 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 + TextEdit
 
 ### No support
-- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))_
-- iTerm2
-- Terminal (OSX)
-- MacVim
 - gVim (_output corrupted_)
+- iTerm2
+- MacVim
+- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))_
+- Terminal (OSX)
 
 ## To Do
 1. Contextual glyph substitution for `\` → `λ` and `.` → `∘`
