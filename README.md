@@ -6,7 +6,7 @@ Programming languages are limited to relatively few characters. As a result of a
 
 Composite glyphs are problematic in languages such as Haskell which utilize these complicated operators (`<-`, `::`, `=>`, `-<`, `>>=` etc.) extensively (_over 100 in_ `lens` _alone_!). The readability of this kind of complex code improves considerably with some kind of pretty printing.
 
-Some Haskell programmers have resorted to unicode symbols in code as a solution (`⇒`, `←` _etc._). This opens a whole new can of worms. In addition to encoding/compatibility problems and all the reasons it never worked out in APL, these symbols are one-character-wide and therefore eye-strainingly small.
+Some Haskell programmers have resorted to unicode symbols in code as a solution (`⇒`, `←` _etc._). This opens a whole new can of worms. In addition to encoding/compatibility problems and all the reasons it never worked out for APL, these symbols are one-character-wide and therefore eye-strainingly small.
 
 Hasklig solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same — only the representation changes.
 
