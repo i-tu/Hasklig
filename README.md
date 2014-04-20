@@ -18,11 +18,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
-
-## Support
-Let me know how your editor is supported.
-
-### Code Editors and Terminals emulators with known support
+### Editors and Terminals with support
 + Atom _(add `text-rendering: optimizeLegibility;` to your `.editor` css.)_
 + Chocolat
 + gEdit
@@ -40,5 +36,5 @@ Let me know how your editor is supported.
 - gVim (_output corrupted_)
 
 ## To Do
-1. Glyph substitution for `\` → `λ` and `.` → `∘`
+1. Contextual glyph substitution for `\` → `λ` and `.` → `∘`
 2. Terminal support (for example iTerm2)
