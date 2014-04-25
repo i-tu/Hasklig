@@ -41,3 +41,9 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 2. Terminal support (for example iTerm2)
 3. Discretionary or alternate ligatures for some characters (_notably_ `/=` _with a slash in the middle, and pretty printed less-equals and greater-equals signs_)
 4. Version for C-esque languages (`->`, `!=`, `==`)
+
+
+## Alternatives
+
+- Vim: vim2hs and HaskellConceal do this but a ligature takes up one less space, changing vertical alignment
+- Emacs: haskell-mode does the same as above, but [emacs supports adjusting the font for ligatures so that proper spacing is maintained](http://www.reddit.com/r/haskell/comments/23g9dv/oc_haskell_programming_font_with_ligatures/ch1srdy)
