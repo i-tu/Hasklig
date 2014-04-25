@@ -21,6 +21,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 ### Editors and Terminals with support
 + Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `.editor` _css._)
 + Chocolat
++ Geany
 + gEdit
 + Kate
 + Konsole
