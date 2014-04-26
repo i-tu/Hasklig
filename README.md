@@ -26,7 +26,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 + Kate
 + Konsole
 + KWrite
-+ Leksah (_x64 Win8 reported not working_)
++ Leksah (_x64 W8 reported not working_)
 + TextEdit
 
 ### No support
