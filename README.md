@@ -37,6 +37,11 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
 
+## Release notes
++ v0.3: New ligatures: `<<<`, `>>>`, `<>` and `+++`
++ v0.2: Lengthened `==` and `/=` to match other equals signs
++ v0.1: Ligatures `<-`, `->`, `=>` `>>`, `<<`, `>>=`, `=<<`, `..`, `...`, `::`, `-<`, `>-`, `-<<`, `>>-`, `++`, `/=` and `==`
+    
 ## To Do
 1. Contextual glyph substitution for `\` → `λ` and `.` → `∘`
 2. Terminal support (for example iTerm2)
