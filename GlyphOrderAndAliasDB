@@ -978,3 +978,7 @@ greater_hyphen greater_hyphen
 equal_equal equal_equal
 colon_colon colon_colon
 period_period_period period_period_period
+greater_greater_greater greater_greater_greater
+less_greater less_greater
+less_less_less less_less_less
+plus_plus_plus plus_plus_plus

@@ -1,4 +1,3 @@
-
 version 1.017 created 2013/01/11
 
 	Updates the hinting to the default asterisk in some styles that were missed in the previous version.
