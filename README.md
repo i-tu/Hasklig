@@ -47,4 +47,4 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 ## Alternatives
 
 - Vim: vim2hs and HaskellConceal do this but a ligature takes up one less space, changing vertical alignment
-- Emacs: haskell-mode does the same as vim2hs, but emacs reportedly supports adjusting the font for ligatures so that proper spacing is maintained [**Instructions**](http://www.reddit.com/r/haskell/comments/23g9dv/oc_haskell_programming_font_with_ligatures/ch1srdy) _(note: I haven't been able to get this myself on OSX)_
+- Emacs: haskell-mode does the same as vim2hs, but emacs reportedly supports adjusting the font for ligatures so that proper spacing is maintained [**Instructions**](http://www.reddit.com/r/haskell/comments/23g9dv/oc_haskell_programming_font_with_ligatures/ch1srdy) _(note: I haven't been able to get this to work myself on OSX)_
