@@ -28,6 +28,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 + KWrite
 + Leksah (_x64 W8 reported not working_)
 + TextEdit
++ TextMate (from version 2.0-alpha.9549)
 
 ### No support
 - Aquamacs
