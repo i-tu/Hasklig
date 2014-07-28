@@ -6,7 +6,7 @@ Programming languages are limited to relatively few characters. As a result of a
 
 Composite glyphs are problematic in languages such as Haskell which utilize these complicated operators (`<-`, `::`, `=>`, `-<`, `>>=` etc.) extensively (_over 100 in_ `lens` _alone_!). The readability of this kind of complex code improves considerably with some kind of pretty printing.
 
-Some Haskell programmers have resorted to unicode symbols in code as a solution (`⇒`, `←` _etc._). This opens a whole new can of worms. In addition to encoding/compatibility problems and all the reasons it never worked out for APL, these symbols are one-character-wide and therefore eye-strainingly small.
+Some Haskell programmers have resorted to unicode symbols in code as a solution (`⇒`, `←` _etc._). However, these symbols are one-character-wide and therefore eye-strainingly small.
 
 Hasklig solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same — only the representation changes.
 
@@ -27,6 +27,7 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 + Konsole
 + KWrite
 + Leksah (_x64 W8 reported not working_)
++ Smultron
 + TextEdit
 + TextMate (from version 2.0-alpha.9549)
 
@@ -39,17 +40,11 @@ Hasklig solves this problem the way typographers have always solved ill-fitting 
 - Terminal (OSX)
 
 ## Release notes
++ v0.4: New ligatures: `<*`, `<*>`, `<+>`, `<$>`, `***`,  `<|>`, `!!`, `||`, `===`, `==>`. Powerline symbols (_in case you need them_)
 + v0.3: New ligatures: `<<<`, `>>>`, `<>` and `+++`
 + v0.2: Lengthened `==` and `/=` to match other equals signs
 + v0.1: Ligatures `<-`, `->`, `=>` `>>`, `<<`, `>>=`, `=<<`, `..`, `...`, `::`, `-<`, `>-`, `-<<`, `>>-`, `++`, `/=` and `==`
     
-## To Do
-1. Contextual glyph substitution for `\` → `λ` and `.` → `∘`
-2. Terminal support (for example iTerm2)
-3. Discretionary or alternate ligatures for some characters (_notably_ `/=` _with a slash in the middle, and pretty printed less-equals and greater-equals signs_)
-4. Version for C-esque languages (`->`, `!=`, `==`)
-
-
 ## Alternatives
 
 - Vim: vim2hs and HaskellConceal do this but a ligature takes up one less space, changing vertical alignment
