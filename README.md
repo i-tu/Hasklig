@@ -10,7 +10,7 @@ Some Haskell programmers have resorted to unicode symbols in code as a solution 
 
 Hasklig solves this problem the way typographers have always solved ill-fitting characters which co-occur often: ligatures. The underlying code stays the same — only the representation changes.
 
-[**Download Hasklig Font Family v0.3**](https://github.com/i-tu/Hasklig/releases/download/0.3/Hasklig-0.3.zip)
+[**Download Hasklig Font Family v0.4**](https://github.com/i-tu/Hasklig/releases/download/0.4/Hasklig-0.4.zip)
 
 #### Hasklig
 ![Hasklig Sample](hasklig_example.png?raw=true)
