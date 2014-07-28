@@ -1,8 +1,8 @@
-FontName (SourceCodeProL_368_wt)
-FullName (Source Code Pro L)
-AppleName (SourceCodeProL_368_wt)
-FamilyName (Source Code Pro L)
-Version (1.000)
+FontName (Hasklig_368_wt)
+FullName (Hasklig)
+AppleName (Hasklig_368_wt)
+FamilyName (Hasklig)
+Version (1.004)
 isFixedPitch true
 CharacterSet (custom)
 Encoding (SpecificEncoding)
@@ -13,10 +13,10 @@ UnderlinePosition -100
 UnderlineThickness 50
 StemWidth 43
 Serif false
-AppleName (SourceCodeProL_368_wt)
-MSMenuName (Source Code Pro L_368_wt)
-VPMenuName (Source Code Pro L_368_wt)
-WORDMenuName (Source Code Pro L_368_wt)
+AppleName (Hasklig_368_wt)
+MSMenuName (Hasklig_368_wt)
+VPMenuName (Hasklig_368_wt)
+WORDMenuName (Hasklig_368_wt)
 VPStyle (N)
 WindowsCharSet 0
 WindowsFirstChar 32

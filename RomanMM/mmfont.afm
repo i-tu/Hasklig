@@ -1,15 +1,15 @@
 StartFontMetrics 2.0
 Comment Copyright Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved.
 Comment Panose 2 11 4 9 3 4 3 2 2 4
-FullName Source Code Pro L
-FontName SourceCodeProL_368_wt
-FamilyName Source Code Pro L
+FullName Hasklig
+FontName Hasklig_368_wt
+FamilyName Hasklig
 Weight All (Multiple Master)
-Notice Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
-Version 1.000
+Notice Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+Version 1.004
 IsFixedPitch true
 ItalicAngle 0.00
-FontBBox -39 -250 1715 863
+FontBBox -121 -250 1727 863
 Ascender 750
 Descender -250
 XHeight 487
@@ -19,7 +19,7 @@ UnderlineThickness 50
 StdHW 75
 StdVW 92
 EncodingScheme FontSpecific
-StartCharMetrics 979
+StartCharMetrics 1001
 C 5 ; WX 600 ; N breve ; B 170 575 430 709 ;
 C 6 ; WX 600 ; N dotaccent ; B 234 586 366 713 ;
 C 8 ; WX 600 ; N ring ; B 207 542 393 727 ;
@@ -441,10 +441,13 @@ C -1 ; WX 600 ; N arrowright ; B 29 -15 582 519 ;
 C -1 ; WX 600 ; N arrowup ; B 33 -25 567 527 ;
 C -1 ; WX 600 ; N ascript ; B 60 -12 507 498 ;
 C -1 ; WX 600 ; N asterisk.a ; B 104 316 496 712 ;
+C -1 ; WX 1800 ; N asterisk_asterisk_asterisk ; B 184 111 1616 712 ;
 C -1 ; WX 600 ; N at.case ; B 49 -18 546 668 ;
 C -1 ; WX 600 ; N atilde.alt ; B 60 -12 507 688 ;
 C -1 ; WX 600 ; N aturned ; B 94 -12 529 498 ;
 C -1 ; WX 600 ; N b.sups ; B 172 252 472 728 ;
+C -1 ; WX 1200 ; N bar_bar ; B 313 -250 887 750 ;
+C -1 ; WX 1800 ; N bar_bar_bar ; B 363 -250 1437 750 ;
 C -1 ; WX 600 ; N breveacute ; B 174 575 426 789 ;
 C -1 ; WX 600 ; N breveacute.cap ; B 178 708 422 907 ;
 C -1 ; WX 600 ; N brevebelowcmb ; B 174 -206 426 -79 ;
@@ -484,7 +487,7 @@ C -1 ; WX 600 ; N circumflexhook ; B 184 573 509 784 ;
 C -1 ; WX 600 ; N circumflexhook.cap ; B 172 706 507 906 ;
 C -1 ; WX 600 ; N circumflextilde ; B 169 571 431 802 ;
 C -1 ; WX 600 ; N circumflextilde.cap ; B 168 706 432 938 ;
-C -1 ; WX 1199 ; N colon_colon ; B 319 -12 881 515 ;
+C -1 ; WX 1199 ; N colon_colon ; B 309 -12 891 515 ;
 C -1 ; WX 600 ; N colonmonetary ; B 96 -110 546 748 ;
 C -1 ; WX 600 ; N comma.dnom ; B 244 -116 356 87 ;
 C -1 ; WX 600 ; N comma.numr ; B 244 151 356 354 ;
@@ -582,12 +585,15 @@ C -1 ; WX 600 ; N eight.sups ; B 175 428 425 757 ;
 C -1 ; WX 600 ; N eighthnote ; B 77 -24 529 694 ;
 C -1 ; WX 600 ; N emacron ; B 69 -12 537 658 ;
 C -1 ; WX 600 ; N eogonek ; B 69 -206 537 498 ;
-C -1 ; WX 1200 ; N equal_equal ; B 171 192 1029 468 ;
+C -1 ; WX 1200 ; N equal_equal ; B 85 192 1115 468 ;
+C -1 ; WX 1800 ; N equal_equal_equal ; B 85 192 1715 468 ;
+C -1 ; WX 1800 ; N equal_equal_greater ; B 85 48 1727 616 ;
 C -1 ; WX 1200 ; N equal_greater ; B 85 48 1127 616 ;
 C -1 ; WX 1800 ; N equal_less_less ; B 85 48 1693 616 ;
 C -1 ; WX 600 ; N ereversed ; B 63 -12 531 498 ;
 C -1 ; WX 600 ; N estimated ; B 26 -12 574 660 ;
 C -1 ; WX 600 ; N etilde ; B 69 -12 537 688 ;
+C -1 ; WX 1200 ; N exclam_exclam ; B 277 -12 923 670 ;
 C -1 ; WX 600 ; N f.sups ; B 198 260 503 736 ;
 C -1 ; WX 600 ; N figuredash ; B 80 216 520 288 ;
 C -1 ; WX 600 ; N figurespace ; B 0 0 0 0 ;
@@ -624,6 +630,7 @@ C -1 ; WX 600 ; N gravecmb.cap ; B 169 706 351 818 ;
 C -1 ; WX 600 ; N gravemod ; B 184 573 364 721 ;
 C -1 ; WX 1200 ; N greater_greater ; B 107 48 1080 616 ;
 C -1 ; WX 1800 ; N greater_greater_equal ; B 107 48 1715 616 ;
+C -1 ; WX 1800 ; N greater_greater_greater ; B 107 48 1680 616 ;
 C -1 ; WX 1800 ; N greater_greater_hyphen ; B 107 48 1715 616 ;
 C -1 ; WX 1200 ; N greater_hyphen ; B 107 48 1115 616 ;
 C -1 ; WX 600 ; N greaterequal ; B 85 0 515 533 ;
@@ -709,8 +716,15 @@ C -1 ; WX 600 ; N leftseveneighthsblock ; B 0 -200 525 800 ;
 C -1 ; WX 600 ; N leftthreeeighthsblock ; B 0 -200 225 800 ;
 C -1 ; WX 600 ; N leftthreequartersblock ; B 0 -200 450 800 ;
 C -1 ; WX 600 ; N leftupheavyrightdnlightbxd ; B -39 -400 639 1000 ;
+C -1 ; WX 1200 ; N less_asterisk ; B 120 21 1097 649 ;
+C -1 ; WX 1800 ; N less_asterisk_greater ; B 120 11 1680 653 ;
+C -1 ; WX 1800 ; N less_bar_greater ; B 120 -120 1680 750 ;
+C -1 ; WX 1800 ; N less_dollar_greater ; B 120 -10 1680 673 ;
+C -1 ; WX 1200 ; N less_greater ; B 120 -22 1079 688 ;
 C -1 ; WX 1200 ; N less_hyphen ; B 73 48 1113 616 ;
 C -1 ; WX 1200 ; N less_less ; B 120 48 1093 616 ;
+C -1 ; WX 1800 ; N less_less_less ; B 120 48 1693 616 ;
+C -1 ; WX 1800 ; N less_plus_greater ; B 120 11 1680 653 ;
 C -1 ; WX 600 ; N lessequal ; B 85 0 515 533 ;
 C -1 ; WX 600 ; N lightarcdnleftbxd ; B -39 -400 339 339 ;
 C -1 ; WX 600 ; N lightarcdnrightbxd ; B 261 -400 639 339 ;
@@ -819,13 +833,21 @@ C -1 ; WX 600 ; N period.numr ; B 254 258 346 354 ;
 C -1 ; WX 600 ; N period.subs ; B 254 -178 346 -83 ;
 C -1 ; WX 600 ; N period.sups ; B 254 432 346 527 ;
 C -1 ; WX 1200 ; N period_period ; B 269 -12 931 157 ;
-C -1 ; WX 1800 ; N period_period_period ; B 369 -12 1431 157 ;
+C -1 ; WX 1800 ; N period_period_period ; B 319 -12 1481 157 ;
 C -1 ; WX 600 ; N peseta ; B 43 0 554 638 ;
 C -1 ; WX 600 ; N peso ; B 43 0 554 638 ;
 C -1 ; WX 600 ; N pi ; B 39 -12 561 486 ;
 C -1 ; WX 1200 ; N plus_plus ; B 105 104 1095 556 ;
+C -1 ; WX 1800 ; N plus_plus_plus ; B 85 104 1715 556 ;
 C -1 ; WX 600 ; N prime ; B 256 434 360 690 ;
 C -1 ; WX 600 ; N product ; B 52 -120 548 638 ;
+C -1 ; WX 598 ; N pwrline1 ; B 60 -281 671 1057 ;
+C -1 ; WX 600 ; N pwrline2 ; B 107 -151 515 934 ;
+C -1 ; WX 379 ; N pwrline3 ; B 37 -70 563 856 ;
+C -1 ; WX 600 ; N pwrline4 ; B -80 -287 680 1057 ;
+C -1 ; WX 600 ; N pwrline5 ; B -121 -262 680 1032 ;
+C -1 ; WX 600 ; N pwrline6 ; B -80 -287 680 1057 ;
+C -1 ; WX 600 ; N pwrline7 ; B -121 -262 680 1032 ;
 C -1 ; WX 600 ; N q.sups ; B 137 127 438 590 ;
 C -1 ; WX 600 ; N r.sups ; B 243 260 496 590 ;
 C -1 ; WX 600 ; N racute ; B 146 0 537 721 ;
@@ -875,7 +897,7 @@ C -1 ; WX 600 ; N six.onum ; B 78 -12 535 650 ;
 C -1 ; WX 600 ; N six.subs ; B 175 -182 427 147 ;
 C -1 ; WX 600 ; N six.sups ; B 175 428 427 757 ;
 C -1 ; WX 600 ; N slash.frac ; B 28 32 572 624 ;
-C -1 ; WX 1200 ; N slash_equal ; B 169 -74 1029 709 ;
+C -1 ; WX 1200 ; N slash_equal ; B 85 -74 1115 709 ;
 C -1 ; WX 600 ; N soundcopyright ; B 30 -11 570 653 ;
 C -1 ; WX 600 ; N space.frac ; B 0 0 0 0 ;
 C -1 ; WX 600 ; N squareblack ; B 201 162 399 365 ;

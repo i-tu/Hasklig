@@ -1,4 +1,9 @@
 ### Release notes
+
+## version 0.4
+    + New ligatures: `==>`, `***`, `!!`, `||`, `|||`
+    + Powerline symbols
+
 ## version 0.3
     + New ligatures: `<<<`, `>>>`, `<>` and `+++`
 

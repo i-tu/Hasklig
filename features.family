@@ -261,38 +261,44 @@ feature size {
 
 #------------------------------
 feature liga {
+	# 3-character ligs first to avoid substitution clash
+    sub asterisk asterisk asterisk by asterisk_asterisk_asterisk;# ***
+    sub bar bar bar by bar_bar_bar; 							 # |||
+    sub equal equal equal by equal_equal_equal;					 # ===
+    sub equal equal greater by equal_equal_greater;				 # ==>
+    sub equal less less by equal_less_less;      	             # =<<
+    sub greater greater equal by greater_greater_equal;	         # >>=
+    sub greater greater greater by greater_greater_greater; 	 # >>>
+    sub greater greater hyphen by greater_greater_hyphen;        # >>-
+    sub hyphen less less by hyphen_less_less;                    # -<<
+    sub less asterisk greater by less_asterisk_greater;     	 # <*>
+    sub less bar greater by less_bar_greater;               	 # <|>
+    sub less dollar greater by less_dollar_greater;        	 	 # <$>
+    sub less plus greater by less_plus_greater;                  # <+>
+    sub less less less by less_less_less;                  		 # <<<
+    sub period period period by period_period_period;            # ...
+    sub plus plus plus by plus_plus_plus;                        # +++
 
-    sub less hyphen by less_hyphen;                         # <-
-    sub hyphen greater by hyphen_greater;                   # ->
-    sub equal greater by equal_greater;                     # =>
-    
-    sub greater greater greater by greater_greater_greater; # >>>
-    sub less less less by less_less_less;                   # <<<
-
-    sub greater greater equal by greater_greater_equal;     # >>=
-    sub equal less less by equal_less_less;                 # =<<
-    
-    sub greater greater by greater_greater;                 # >>
-    sub less less by less_less;                             # <<
-
-    sub less greater by less_greater;                       # <>
-
-    sub period period period by period_period_period;       # ...
-    sub period period by period_period;                     # ..
-    sub colon colon by colon_colon;                         # ::
-
-    sub plus plus plus by plus_plus_plus;                   # +++
-    sub plus plus by plus_plus;                             # ++
-    
-    sub equal equal by equal_equal;                         # ==
-    sub slash equal by slash_equal;                         # /=
- 
-    sub greater greater hyphen by greater_greater_hyphen;   # >>-
-    sub hyphen less less by hyphen_less_less;               # -<<
-    sub hyphen less by hyphen_less;                         # -<
-    sub greater hyphen by greater_hyphen;                   # >-
-
-
-
+    # 2-character ligs
+#    sub ampersand ampersand by ampersand_ampersand;              # &&
+    sub bar bar by bar_bar;										 # ||
+    sub colon colon by colon_colon;                              # ::
+    sub equal equal by equal_equal;                              # ==
+    sub equal greater by equal_greater;                          # =>
+    sub exclam exclam by exclam_exclam;						     # !!
+#    sub greater equal by greater_equal;							 # >=    
+    sub greater greater by greater_greater;                      # >>
+    sub greater hyphen by greater_hyphen;                        # >-
+    sub hyphen greater by hyphen_greater;                        # ->
+    sub hyphen less by hyphen_less;                              # -<
+    sub less asterisk by less_asterisk;							 # <*
+#    sub less dollar by less_dollar;                              # <$
+#    sub less equal by less_equal;								 # <=
+    sub less greater by less_greater;              		         # <>
+    sub less hyphen by less_hyphen;                         	 # <-
+    sub less less by less_less;                     		     # <<
+    sub period period by period_period;                          # ..
+    sub plus plus by plus_plus;                                  # ++
+    sub slash equal by slash_equal;                              # /=
 } liga;
 
