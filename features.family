@@ -281,6 +281,7 @@ feature liga {
 
     # 2-character ligs
 #    sub ampersand ampersand by ampersand_ampersand;              # &&
+    sub backslash backslash by backslash_backslash;              # \\
     sub bar bar by bar_bar;										 # ||
     sub colon colon by colon_colon;                              # ::
     sub equal equal by equal_equal;                              # ==

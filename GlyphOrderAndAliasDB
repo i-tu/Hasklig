@@ -969,7 +969,6 @@ uniE0B1 pwrline5
 uniE0B2 pwrline6
 uniE0B3 pwrline7
 asterisk_asterisk_asterisk asterisk_asterisk_asterisk
-bar_bar_bar bar_bar_bar
 equal_equal_equal equal_equal_equal
 equal_equal_greater equal_equal_greater
 equal_less_less equal_less_less
@@ -984,6 +983,7 @@ less_plus_greater less_plus_greater
 less_less_less less_less_less
 period_period_period period_period_period
 plus_plus_plus plus_plus_plus
+backslash_backslash backslash_backslash
 bar_bar bar_bar
 colon_colon colon_colon
 equal_equal equal_equal
