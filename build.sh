@@ -5,7 +5,7 @@ weights='Black Bold ExtraLight Light Medium Regular Semibold'
 
 # clean existing build artifacts
 rm -rf target/
-mkdir target/ target/OTF/ target/TTF/
+mkdir target/
 
 for w in $weights
 do

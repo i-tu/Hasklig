@@ -1,6 +1,3 @@
-target/
-*.vfbak
-
 *.tmp
 
 *.zip
@@ -8,5 +5,3 @@ target/
 *.cff
 
 *.txt
-
-*.rtf

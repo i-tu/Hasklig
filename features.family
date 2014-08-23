@@ -280,10 +280,11 @@ feature liga {
     sub plus plus plus by plus_plus_plus;                        # +++
 
     # 2-character ligs
-#    sub ampersand ampersand by ampersand_ampersand;              # &&
+    sub ampersand ampersand by ampersand_ampersand;              # &&
     sub asterisk greater by asterisk_greater;                    # *>
     sub backslash backslash by backslash_backslash;              # \\
     sub bar bar by bar_bar;                                      # ||
+    sub bar greater by bar_greater;                              # |>
     sub colon colon by colon_colon;                              # ::
     sub equal equal by equal_equal;                              # ==
     sub equal greater by equal_greater;                          # =>
@@ -297,6 +298,7 @@ feature liga {
 #    sub less dollar by less_dollar;                              # <$
 #    sub less equal by less_equal;								  # <=
     sub less greater by less_greater;              		         # <>
+    sub less bar by less_bar;                                    # <|
     sub less hyphen by less_hyphen;                         	 # <-
     sub less less by less_less;                     		     # <<
     sub period period by period_period;                          # ..
