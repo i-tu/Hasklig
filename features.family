@@ -261,7 +261,7 @@ feature size {
 
 #------------------------------
 feature liga {
-	# 3-character ligs first to avoid substitution clash
+    # 3-character ligs first to avoid substitution clash
     sub asterisk asterisk asterisk by asterisk_asterisk_asterisk;# ***
 #    sub bar bar bar by bar_bar_bar; 							 # |||
     sub equal equal equal by equal_equal_equal;					 # ===
@@ -281,20 +281,21 @@ feature liga {
 
     # 2-character ligs
 #    sub ampersand ampersand by ampersand_ampersand;              # &&
+    sub asterisk greater by asterisk_greater;                    # *>
     sub backslash backslash by backslash_backslash;              # \\
-    sub bar bar by bar_bar;										 # ||
+    sub bar bar by bar_bar;                                      # ||
     sub colon colon by colon_colon;                              # ::
     sub equal equal by equal_equal;                              # ==
     sub equal greater by equal_greater;                          # =>
     sub exclam exclam by exclam_exclam;						     # !!
-#    sub greater equal by greater_equal;							 # >=    
+#    sub greater equal by greater_equal;                           # >=    
     sub greater greater by greater_greater;                      # >>
     sub greater hyphen by greater_hyphen;                        # >-
     sub hyphen greater by hyphen_greater;                        # ->
     sub hyphen less by hyphen_less;                              # -<
     sub less asterisk by less_asterisk;							 # <*
 #    sub less dollar by less_dollar;                              # <$
-#    sub less equal by less_equal;								 # <=
+#    sub less equal by less_equal;								  # <=
     sub less greater by less_greater;              		         # <>
     sub less hyphen by less_hyphen;                         	 # <-
     sub less less by less_less;                     		     # <<
