@@ -20,7 +20,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
-## Release notes 
+### Release notes 
 + v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/Lokaltog/powerline) symbol support
 + v0.3: New ligatures: `<<<` `>>>` `<>` and `+++`
 + v0.2: Lengthened `==` and `/=` to match other equals signs
