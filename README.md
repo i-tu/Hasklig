@@ -41,9 +41,10 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 
 #### No support
-- Aquamacs
-- gVim (_output corrupted_)
-- iTerm2
-- MacVim
+Some editors have replaced standard font rendering engines with custom ones and don't support ligatures.
+- Emacs (_If you can figure out how to make this happen, let me know!_)
+- gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
+- iTerm2 ([details](https://code.google.com/p/iterm2/issues/detail?id=2974))
+- MacVim (_Reversing_ [this commit](https://github.com/b4winckler/macvim/commit/8c8db3cd4cb094535ecb0254a7fb2e15be31d4fd) _makes ligatures show, but advancement is borked._) 
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
