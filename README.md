@@ -35,7 +35,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 + Konsole
 + KWrite
 + Leksah (_x64 W8 reported not working_)
-+ Light Table (_add_ `text-rendering: optimizeLegibility;` _to your_ `.CodeMirror` <span style="font-variant: small-caps">css</span>.)
++ Light Table (_add_ `text-rendering: optimizeLegibility;` _to your_ `.CodeMirror` <span style="font-variant: small-caps">css</span>. [Details](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
 + Smultron
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
