@@ -28,6 +28,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 
 #### Editor Support
 + Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `.editor` <span style="font-variant: small-caps">css</span>. If that doesn't work, try disabling hardware acceleration in the settings)
++ BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
 + Geany
 + gEdit
@@ -35,14 +36,14 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 + Konsole
 + KWrite
 + Leksah (_x64 W8 reported not working_)
-+ Light Table (_add_ `text-rendering: optimizeLegibility;` _to your_ `.CodeMirror` <span style="font-variant: small-caps">css</span>. [Details](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
++ Light Table ([Instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
 + Smultron
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 
 #### No support
 Some editors have replaced standard font rendering engines with custom ones and don't support ligatures.
-- Emacs (_If you can figure out how to make this happen, let me know!_)
+- Emacs (_Support is currently under work._)
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - iTerm2 ([details](https://code.google.com/p/iterm2/issues/detail?id=2974))
 - MacVim (_Reversing_ [this commit](https://github.com/b4winckler/macvim/commit/8c8db3cd4cb094535ecb0254a7fb2e15be31d4fd) _makes ligatures show, but advancement is borked._) 
