@@ -45,8 +45,8 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 Some editors have replaced standard font rendering engines with custom ones and don't support ligatures.
 - Emacs (_Support is currently under work._)
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
+- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539))
 - iTerm2 ([details](https://code.google.com/p/iterm2/issues/detail?id=2974))
 - MacVim (_Reversing_ [this commit](https://github.com/b4winckler/macvim/commit/8c8db3cd4cb094535ecb0254a7fb2e15be31d4fd) _makes ligatures show, but advancement is borked._) 
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
-- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539))
