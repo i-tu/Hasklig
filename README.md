@@ -20,11 +20,15 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
+
 ### Release notes 
 + v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/Lokaltog/powerline) symbol support
 + v0.3: New ligatures: `<<<` `>>>` `<>` and `+++`
 + v0.2: Lengthened `==` and `/=` to match other equals signs
 + v0.1: Ligatures `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` and `==`
+
+#### Currently implemented symbols
+`<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
 
 #### Editor Support
 + Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `.editor` <span style="font-variant: small-caps">css</span>. If that doesn't work, try disabling hardware acceleration in the settings)
