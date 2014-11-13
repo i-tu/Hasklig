@@ -37,6 +37,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 + KWrite
 + Leksah (_x64 W8 reported not working_)
 + Light Table ([Instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
++ QtCreator (_v.3.2.2 on GNU/Linux x64_)
 + Smultron
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
