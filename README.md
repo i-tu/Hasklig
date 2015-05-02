@@ -45,6 +45,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 + Smultron
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
++ Vico
 
 #### No support
 Some editors have replaced standard font rendering engines with custom ones and don't support ligatures.
