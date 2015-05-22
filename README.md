@@ -20,6 +20,9 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
+#### Credits
+Original idea, design and implementation of code ligatures by Ian Tuomi 2014-2015.
+This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) with ligatures.
 
 ### Release notes 
 + v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/Lokaltog/powerline) symbol support
