@@ -34,7 +34,7 @@ This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-co
 `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
 
 #### Editor Support
-+ Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `.editor` <span style="font-variant: small-caps">css</span>. If that doesn't work, try disabling hardware acceleration in the settings)
++ Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `atom-text-editor` <span style="font-variant: small-caps">css</span>. If that doesn't work, try disabling hardware acceleration in the settings)
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
 + Geany
