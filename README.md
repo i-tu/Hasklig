@@ -34,7 +34,7 @@ This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-co
 `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
 
 #### Editor Support
-Reports on the current state of support for code editors and terminals is much appreciated.
+Reports on the current state of support for code editors and terminals are much appreciated.
 
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
