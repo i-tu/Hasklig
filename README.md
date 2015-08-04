@@ -34,7 +34,6 @@ This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-co
 `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
 
 #### Editor Support
-+ Atom (_add_ `text-rendering: optimizeLegibility;` _to your_ `.editor` <span style="font-variant: small-caps">css</span>. If that doesn't work, try disabling hardware acceleration in the settings)
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
 + Geany
@@ -52,6 +51,8 @@ This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-co
 
 #### No support
 Some editors have replaced standard font rendering engines with custom ones and don't support ligatures.
+https://github.com/atom/atom/issues/3821
+- Atom (_see [Atom issue #3821](https://github.com/atom/atom/issues/3821) for more details._)
 - Emacs (_Support is currently under work._)
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539))
