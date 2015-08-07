@@ -55,7 +55,7 @@ Reports on the current state of support for code editors and terminals are much 
 - Atom (_see [Atom issue #3821](https://github.com/atom/atom/issues/3821) for more details._)
 - Emacs (_Support is currently under work._)
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
-- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539))
+- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615))
 - iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
 - MacVim (_Reversing_ [this commit](https://github.com/b4winckler/macvim/commit/8c8db3cd4cb094535ecb0254a7fb2e15be31d4fd) _makes ligatures show, but advancement is borked._) 
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
