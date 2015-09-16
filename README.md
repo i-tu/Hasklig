@@ -60,3 +60,4 @@ Reports on the current state of support for code editors and terminals are much 
 - MacVim (_Reversing_ [this commit](https://github.com/b4winckler/macvim/commit/8c8db3cd4cb094535ecb0254a7fb2e15be31d4fd) _makes ligatures show, but advancement is borked._) 
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
+- Xamarin Studio/Monodevelop
