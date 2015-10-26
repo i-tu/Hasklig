@@ -46,6 +46,7 @@ Reports on the current state of support for code editors and terminals are much 
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 + Vico
++ RStudio
 
 #### No support
 - Atom (_see [Atom issue #3821](https://github.com/atom/atom/issues/3821) for more details._)
