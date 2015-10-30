@@ -32,6 +32,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 #### Editor Support
 Reports on the current state of support for code editors and terminals are much appreciated.
 
++ Atom ([fixed](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html) in v1.1.0)
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
 + Geany
@@ -49,7 +50,6 @@ Reports on the current state of support for code editors and terminals are much 
 + RStudio
 
 #### No support
-- Atom (_see [Atom issue #3821](https://github.com/atom/atom/issues/3821) for more details._)
 - Emacs (_Support is currently under work._)
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615))
