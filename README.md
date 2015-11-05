@@ -42,6 +42,7 @@ Reports on the current state of support for code editors and terminals are much 
 + KWrite
 + Leksah (_x64 W8 reported not working_)
 + Light Table ([Instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
++ MacVim (_Since release 79. See [Issue 32](https://github.com/i-tu/Hasklig/issues/32)_) 
 + QtCreator (_v.3.2.2 on GNU/Linux x64_)
 + Smultron
 + TextEdit
@@ -54,7 +55,6 @@ Reports on the current state of support for code editors and terminals are much 
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615))
 - iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
-- MacVim (_Reversing_ [this commit](https://github.com/b4winckler/macvim/commit/8c8db3cd4cb094535ecb0254a7fb2e15be31d4fd) _makes ligatures show, but advancement is borked._) 
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
 - Xamarin Studio/Monodevelop
