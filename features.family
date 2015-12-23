@@ -31,7 +31,9 @@ dieresismacron.cap dieresisacute.cap dieresiscaron.cap dieresisgrave.cap circumf
 
 
 #--------------------------------------
-languagesystem DFLT dflt;
+languagesystem zyyy dflt;
+languagesystem zinh dflt;
+languagesystem grek dflt;
 languagesystem latn dflt;
 
 
