@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_less_less" format="1">
+  <advance width="1800"/>
+  <outline>
+    <component base="greater_greater_greater" xScale="-1" yScale="-1" xOffset="1800" yOffset="664"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

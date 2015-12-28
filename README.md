@@ -1,64 +1,66 @@
-_N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe/source-code-pro)
+# Hasklig
 
-### Hasklig - _Ligatures for Haskell code_
+Hasklig is a set of OpenType fonts that have been designed to work well
+in user interface (UI) environments. In addition to a functional OpenType font, this open
+source project provides all of the source files that were used to build this OpenType font
+by using the AFDKO makeotf tool.
 
-Programming languages are limited to relatively few characters. As a result, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit.
+## Download the fonts (OTF, TTF, WOFF, WOFF2, EOT)
 
-Composite glyphs are problematic in languages such as Haskell which utilize these complicated operators (`=>` `-<` `>>=` etc.) extensively. The readability of such complex code improves with pretty printing. Academic articles featuring Haskell code often use [lhs2tex](http://www.andres-loeh.de/lhs2tex/) to achieve an appealing rendering, but it is of no use when programming.
+* [Latest release](../../releases/latest)
+* [All releases](../../releases)
 
-Some Haskellers have resorted to Unicode symbols (`⇒`, `←` _etc._), which are valid in the <span style="font-variant: small-caps">ghc</span>. However they are one-character-wide and therefore eye-strainingly small. Furthermore, when displayed as substitutes to the underlying multi-character representation, as [vim2hs] (https://github.com/dag/vim2hs) does, the characters go out of alignment.
+## Font installation instructions
 
-Hasklig solves the problem the way typographers have always solved ill-fitting characters which co-occur often: [ligatures](http://en.wikipedia.org/wiki/Typographic_ligature). The underlying code stays the same — only the representation changes.
+* [Mac OS X](http://support.apple.com/kb/HT2509)
+* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
+* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
+* Bower<br/>
+	`bower install git://github.com/adobe-fonts/source-code-pro.git#release`
+* npm<br/>
+	`npm install --fetch-only git://github.com/adobe-fonts/source-code-pro.git#release`
 
-Not only can multi-character glyphs be rendered more vividly, other problematic things in monospaced fonts, such as spacing can be corrected.
+## Building the fonts from source
 
-[**Download Hasklig Font Family v0.4**](https://github.com/i-tu/Hasklig/releases/download/0.4/Hasklig-0.4.zip)
+### Requirements
 
-#### Hasklig
-![Hasklig Sample](hasklig_example.png?raw=true)
+To build the binary font files from source, you need to have installed the
+[Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO). The AFDKO
+tools are widely used for font development today, and are part of most font
+editor applications.
 
-#### Source Code Pro
-![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
+### Building one font
 
-### Release notes 
-+ v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/Lokaltog/powerline) symbol support
-+ v0.3: New ligatures: `<<<` `>>>` `<>` and `+++`
-+ v0.2: Lengthened `==` and `/=` to match other equals signs
-+ v0.1: Ligatures `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` and `==`
+The key to building OTF or TTF fonts is `makeotf`, which is part of the AFDKO toolset.
+Information and usage instructions can be found by executing `makeotf -h`.
 
-#### Currently implemented symbols
-`<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
+In this repository, all necessary files are in place for building the OTF and TTF fonts.
+For example, build a binary OTF font for the Regular style like this:
 
-#### Editor Support
-Reports on the current state of support for code editors and terminals are much appreciated.
+```sh
+$ cd Roman/Regular/
+$ makeotf -r
+```
 
-+ Atom ([fixed](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html) in v1.1.0)
-+ BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
-+ Chocolat
-+ Geany
-+ gEdit
-+ Kate
-+ Konsole
-+ KWrite
-+ Leksah (_x64 W8 reported not working_)
-+ Light Table ([Instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
-+ MacVim (_Since release 79. See [Issue 32](https://github.com/i-tu/Hasklig/issues/32)_) 
-+ QtCreator (_v.3.2.2 on GNU/Linux x64_)
-+ Smultron
-+ TextEdit
-+ TextMate (_from version 2.0-alpha.9549 onwards_)
-+ Vico
-+ RStudio
+### Building all fonts
 
-#### No support
-- Emacs (_Support is currently under work._)
-- gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
-- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615))
-- iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
-- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
-- Terminal (OSX)
-- Xamarin Studio/Monodevelop
+For convenience, a shell script named **build** is provided in the root directory.
+It builds all OTFs and TTFs, and can be executed by typing:
 
-#### Credits
-Original idea, design and implementation of code ligatures by Ian Tuomi 2014-2015.
-This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) with ligatures.
+```sh
+$ ./build.sh
+```
+
+or this on Windows:
+
+```sh
+> build.cmd
+```
+
+## Getting Involved
+
+Send suggestions for changes to the Source Code OpenType font project maintainer, [Paul D. Hunt](mailto:opensourcefonts@adobe.com?subject=[GitHub] Hasklig), for consideration.
+
+## Further information
+
+For information about the design and background of Source Code, please refer to the [official font readme file](http://www.adobe.com/products/type/font-information/source-code-pro-readme.html).

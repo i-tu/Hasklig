@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_greater_greater" format="1">
+  <advance width="1800"/>
+  <outline>
+    <contour>
+      <point x="1676" y="348" type="line"/>
+      <point x="1144" y="602" type="line"/>
+      <point x="1144" y="566" type="line"/>
+      <point x="1644" y="334" type="line"/>
+      <point x="1644" y="330" type="line"/>
+      <point x="1144" y="98" type="line"/>
+      <point x="1144" y="62" type="line"/>
+      <point x="1676" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="1199" y="336" type="line"/>
+      <point x="614" y="602" type="line"/>
+      <point x="614" y="566" type="line"/>
+      <point x="1144" y="334" type="line"/>
+      <point x="1144" y="330" type="line"/>
+      <point x="614" y="98" type="line"/>
+      <point x="614" y="62" type="line"/>
+      <point x="1199" y="328" type="line"/>
+    </contour>
+    <contour>
+      <point x="670" y="336" type="line"/>
+      <point x="114" y="602" type="line"/>
+      <point x="114" y="566" type="line"/>
+      <point x="614" y="334" type="line"/>
+      <point x="614" y="330" type="line"/>
+      <point x="114" y="98" type="line"/>
+      <point x="114" y="62" type="line"/>
+      <point x="670" y="328" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

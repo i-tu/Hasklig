@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_greater" format="1">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1086" y="394" type="line"/>
+      <point x="535" y="676" type="line"/>
+      <point x="535" y="522" type="line"/>
+      <point x="946" y="338" type="line"/>
+      <point x="946" y="334" type="line"/>
+      <point x="535" y="146" type="line"/>
+      <point x="535" y="-8" type="line"/>
+      <point x="1086" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="75" y="446" type="line"/>
+      <point x="211" y="332" type="line"/>
+      <point x="75" y="218" type="line"/>
+      <point x="125" y="145" type="line"/>
+      <point x="278" y="238" type="line"/>
+      <point x="345" y="88" type="line"/>
+      <point x="427" y="114" type="line"/>
+      <point x="388" y="274" type="line"/>
+      <point x="572" y="288" type="line"/>
+      <point x="572" y="376" type="line"/>
+      <point x="388" y="390" type="line"/>
+      <point x="427" y="550" type="line"/>
+      <point x="345" y="576" type="line"/>
+      <point x="278" y="426" type="line"/>
+      <point x="125" y="519" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

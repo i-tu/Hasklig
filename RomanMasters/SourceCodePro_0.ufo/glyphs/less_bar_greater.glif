@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_bar_greater" format="1">
+  <advance width="1800"/>
+  <outline>
+    <contour>
+      <point x="1676" y="348" type="line"/>
+      <point x="1111" y="639" type="line"/>
+      <point x="1111" y="603" type="line"/>
+      <point x="1644" y="334" type="line"/>
+      <point x="1644" y="330" type="line"/>
+      <point x="1116" y="58" type="line"/>
+      <point x="1116" y="22" type="line"/>
+      <point x="1676" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="124" y="316" type="line"/>
+      <point x="684" y="38" type="line"/>
+      <point x="684" y="74" type="line"/>
+      <point x="156" y="330" type="line"/>
+      <point x="156" y="334" type="line"/>
+      <point x="682" y="597" type="line"/>
+      <point x="682" y="633" type="line"/>
+      <point x="124" y="348" type="line"/>
+    </contour>
+    <contour>
+      <point x="886" y="-120" type="line"/>
+      <point x="914" y="-120" type="line"/>
+      <point x="914" y="750" type="line"/>
+      <point x="886" y="750" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>
