@@ -20,7 +20,7 @@ feature liga {
     sub plus plus plus by plus_plus_plus;                        # +++
 
     # 2-character ligs
-    sub ampersand ampersand by ampersand_ampersand;              # &&
+#    sub ampersand ampersand by ampersand_ampersand;              # &&
     sub asterisk greater by asterisk_greater;                    # *>
     sub backslash backslash by backslash_backslash;              # \\
     sub bar bar by bar_bar;                                      # ||
