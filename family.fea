@@ -65,6 +65,19 @@ dieresisacutecmb.cap dieresisgravecmb.cap dieresismacroncmb.cap dieresiscaroncmb
 #--------------------------------------
 languagesystem DFLT dflt; # Default
 
+
+# The ICU text layout engine (http://userguide.icu-project.org/layoutengine)
+# doesn't recognize the DFLT script tag, so OpenType features should be
+# explicitly enabled for all scripts supported by the font.
+#
+# The ICU engine is used by current JDK implementations, so the
+# two lines below will make the font usable in Java applications,
+# and, in particular, in IDEs built on IntelliJ platform.
+
+languagesystem zyyy dflt;
+languagesystem zinh dflt;
+
+
 languagesystem latn dflt; # Latin default
 	languagesystem latn NSM; # Northern Sami
 	languagesystem latn SKS; # Skolt Sami
