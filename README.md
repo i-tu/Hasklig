@@ -81,7 +81,11 @@ editor applications.
 
 This repository only includes so-called *master* weights of the fonts (effectively extralight and black).
 The shapes of the weights in between these extremities are calculated by `makeInstancesUFO` supplied with `.designspace` files.
-The script `./buildInstances.sh` executes `makeInstancesUFO`, calculating all the italic and regular font weight shapes.
+For convenience, the shell script **buildInstances** is provided, which  executes `makeInstancesUFO`, calculating all the italic and regular font weight shapes.
+
+```sh
+$ ./buildInstances.sh
+```
 
 #### Building one font
 
