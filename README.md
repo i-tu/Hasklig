@@ -1,6 +1,6 @@
 _N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe/source-code-pro)
 
-### Hasklig - _Ligatures for Haskell code_
+### Hasklig – _Ligatures for code_
 
 Programming languages are limited to relatively few characters. As a result, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit.
 
@@ -12,7 +12,7 @@ Hasklig solves the problem the way typographers have always solved ill-fitting c
 
 Not only can multi-character glyphs be rendered more vividly, other problematic things in monospaced fonts, such as spacing can be corrected.
 
-[**Download Hasklig Font Family v0.4**](https://github.com/i-tu/Hasklig/releases/download/0.4/Hasklig-0.4.zip)
+[**Download Hasklig Font Family v0.9**](https://github.com/i-tu/Hasklig/releases/download/0.9/Hasklig-0.9.zip)
 
 #### Hasklig
 ![Hasklig Sample](hasklig_example.png?raw=true)
@@ -21,7 +21,13 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
 ### Release notes 
-+ v0.9: Italics and all other improvements in latest version of Source Code Pro.
++ [v0.9]((https://github.com/i-tu/Hasklig/releases/download/0.9/Hasklig-0.9.zip)): This is a major update so YMMV. Please report any issues.
+	+ Converted to UFO format and updated base fonts to benefit from work done on [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/):
+		- ***Italics!***
+		- Greek & Cyrillic script support
+		- Better powerline symbols
+		- [Much, much more](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro%2F1.030R-it)
+	- Added tags that enable support for some IntelliJ IDEA Builds
 + v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/Lokaltog/powerline) symbol support
 + v0.3: New ligatures: `<<<` `>>>` `<>` and `+++`
 + v0.2: Lengthened `==` and `/=` to match other equals signs
@@ -31,9 +37,10 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
 
 #### Editor Support
-Reports on the current state of support for code editors and terminals are much appreciated.
+This list is compiled based on reports on the current state of support for code editors and terminals. This list 
 
-+ Atom ([fixed](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html) in v1.1.0)
+#### Supported editors
++ Atom (*[since v1.1.0](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html)*)
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
 + Geany
@@ -60,6 +67,45 @@ Reports on the current state of support for code editors and terminals are much 
 - Terminal (OSX)
 - Xamarin Studio/Monodevelop
 
-#### Credits
+
+### Building the fonts from source
+
+#### Requirements
+
+To build the binary font files from source, you need to have installed the
+[Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO). The AFDKO
+tools are widely used for font development today, and are part of most font
+editor applications.
+
+#### Building one font
+
+The key to building OTF or TTF fonts is `makeotf`, which is part of the AFDKO toolset.
+Information and usage instructions can be found by executing `makeotf -h`.
+
+In this repository, all necessary files are in place for building the OTF and TTF fonts.
+For example, build a binary OTF font for the Regular style like this:
+
+```sh
+$ cd Roman/Regular/
+$ makeotf -r
+```
+
+#### Building all fonts
+
+For convenience, a shell script named **build** is provided in the root directory.
+It builds all OTFs and TTFs, and can be executed by typing:
+
+```sh
+$ ./build.sh
+```
+
+or this on Windows:
+
+```sh
+> build.cmd
+```
+
+
+### Credits
 Original idea, design and implementation of code ligatures by Ian Tuomi 2014-2015.
 This typeface extends [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) with ligatures.
