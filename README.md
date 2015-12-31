@@ -77,6 +77,12 @@ To build the binary font files from source, you need to have installed the
 tools are widely used for font development today, and are part of most font
 editor applications.
 
+#### Building font instances from masters
+
+This repository only includes master weights of the fonts (effectively Extralight and Black).
+The shapes of the weights in between these extremities are calculated and saved by running the command `makeInstancesUFO` with the supplied `.designspace` files.
+The script `./buildInstances.sh`executes `makeInstancesUFO` for the italic and regular fonts.
+
 #### Building one font
 
 The key to building OTF or TTF fonts is `makeotf`, which is part of the AFDKO toolset.
