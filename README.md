@@ -56,6 +56,7 @@ This list is compiled based on reports on the current state of support for code 
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 + Vico
++ Xcode (requires [an additional plugin](https://github.com/robertvojta/LigatureXcodePlugin)) 
 + RStudio
 
 #### No support
