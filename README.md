@@ -52,17 +52,18 @@ This list is compiled based on reports on the current state of support for code 
 + Light Table ([Instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
 + MacVim (_Since release 79. See [Issue 32](https://github.com/i-tu/Hasklig/issues/32)_) 
 + QtCreator (_v.3.2.2 on GNU/Linux x64_)
++ RStudio
 + Smultron
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 + Vico
++ Visual Studio 2015
 + Xcode (requires [an additional plugin](https://github.com/robertvojta/LigatureXcodePlugin)) 
-+ RStudio
 
 #### No support
-- Emacs (_Support is currently under work._)
+- Emacs
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
-- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615))
+- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615). Note that the 0.9 typeface family has been patched with the fix mentioned.)
 - iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
 - Terminal (OSX)
