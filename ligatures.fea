@@ -1,47 +1,89 @@
+feature calt {
+  sub \CR.00 \CR.00 \asterisk' by \asterisk_asterisk_asterisk;
+  sub \CR.00 \CR.00 \equal' by \greater_greater_equal;
+  sub \CR.00 \CR.00 \greater' by \less_plus_greater;
+  sub \CR.00 \CR.00 \hyphen' by \greater_greater_hyphen;
+  sub \CR.00 \CR.00 \less' by \less_less_less;
+  sub \CR.00 \CR.00 \period' by \period_period_period;
+  sub \CR.00 \CR.00 \plus' by \plus_plus_plus;
+  sub \CR.01 \CR.01 \equal' by \equal_equal_equal;
+  sub \CR.01 \CR.01 \greater' by \less_dollar_greater;
+  sub \CR.01 \CR.01 \less' by \hyphen_less_less;
+  sub \CR.02 \CR.02 \greater' by \less_bar_greater;
+  sub \CR.02 \CR.02 \less' by \equal_less_less;
+  sub \CR.03 \CR.03 \greater' by \less_asterisk_greater;
+  sub \CR.04 \CR.04 \greater' by \greater_greater_greater;
+  sub \CR.05 \CR.05 \greater' by \equal_equal_greater;
+  sub \CR.00 \asterisk' \asterisk by \CR.00;
+  sub \CR.00 \greater' \equal by \CR.00;
+  sub \CR.00 \greater' \hyphen by \CR.00;
+  sub \CR.00 \less' \less by \CR.00;
+  sub \CR.00 \period' \period by \CR.00;
+  sub \CR.00 \plus' \greater by \CR.00;
+  sub \CR.00 \plus' \plus by \CR.00;
+  sub \CR.01 \dollar' \greater by \CR.01;
+  sub \CR.01 \equal' \equal by \CR.01;
+  sub \CR.01 \less' \less by \CR.01;
+  sub \CR.02 \bar' \greater by \CR.02;
+  sub \CR.02 \less' \less by \CR.02;
+  sub \CR.03 \asterisk' \greater by \CR.03;
+  sub \CR.04 \greater' \greater by \CR.04;
+  sub \CR.05 \equal' \greater by \CR.05;
+  sub \CR.00 \backslash' by \backslash_backslash;
+  sub \CR.00 \bar' by \less_bar;
+  sub \CR.00 \colon' by \colon_colon;
+  sub \CR.00 \equal' by \slash_equal;
+  sub \CR.00 \exclam' by \exclam_exclam;
+  sub \CR.00 \hyphen' by \less_hyphen;
+  sub \CR.01 \asterisk' by \less_asterisk;
+  sub \CR.01 \bar' by \bar_bar;
+  sub \CR.01 \greater' by \less_greater;
+  sub \CR.01 \hyphen' by \greater_hyphen;
+  sub \CR.01 \period' by \period_period;
+  sub \CR.01 \plus' by \plus_plus;
+  sub \CR.02 \equal' by \equal_equal;
+  sub \CR.02 \greater' by \hyphen_greater;
+  sub \CR.03 \greater' by \greater_greater;
+  sub \CR.03 \less' by \less_less;
+  sub \CR.04 \less' by \hyphen_less;
+  sub \CR.05 \greater' by \equal_greater;
+  sub \CR.06 \greater' by \bar_greater;
+  sub \CR.07 \greater' by \asterisk_greater;
+  sub \asterisk' \asterisk \asterisk by \CR.00;
+  sub \equal' \equal \equal by \CR.01;
+  sub \equal' \equal \greater by \CR.05;
+  sub \equal' \less \less by \CR.02;
+  sub \greater' \greater \equal by \CR.00;
+  sub \greater' \greater \greater by \CR.04;
+  sub \greater' \greater \hyphen by \CR.00;
+  sub \hyphen' \less \less by \CR.01;
+  sub \less' \asterisk \greater by \CR.03;
+  sub \less' \bar \greater by \CR.02;
+  sub \less' \dollar \greater by \CR.01;
+  sub \less' \less \less by \CR.00;
+  sub \less' \plus \greater by \CR.00;
+  sub \period' \period \period by \CR.00;
+  sub \plus' \plus \plus by \CR.00;
+  sub \asterisk' \greater by \CR.07;
+  sub \backslash' \backslash by \CR.00;
+  sub \bar' \bar by \CR.01;
+  sub \bar' \greater by \CR.06;
+  sub \colon' \colon by \CR.00;
+  sub \equal' \equal by \CR.02;
+  sub \equal' \greater by \CR.05;
+  sub \exclam' \exclam by \CR.00;
+  sub \greater' \greater by \CR.03;
+  sub \greater' \hyphen by \CR.01;
+  sub \hyphen' \greater by \CR.02;
+  sub \hyphen' \less by \CR.04;
+  sub \less' \asterisk by \CR.01;
+  sub \less' \bar by \CR.00;
+  sub \less' \greater by \CR.01;
+  sub \less' \hyphen by \CR.00;
+  sub \less' \less by \CR.03;
+  sub \period' \period by \CR.01;
+  sub \plus' \plus by \CR.01;
+  sub \slash' \equal by \CR.00;
+} calt;
 
-#------------------------------
-feature liga {
-    # 3-character ligs first to avoid substitution clash
-    sub asterisk asterisk asterisk by asterisk_asterisk_asterisk;# ***
-#    sub bar bar bar by bar_bar_bar;                              # |||
-    sub equal equal equal by equal_equal_equal;                  # ===
-    sub equal equal greater by equal_equal_greater;              # ==>
-    sub equal less less by equal_less_less;                      # =<<
-    sub greater greater equal by greater_greater_equal;          # >>=
-    sub greater greater greater by greater_greater_greater;      # >>>
-    sub greater greater hyphen by greater_greater_hyphen;        # >>-
-    sub hyphen less less by hyphen_less_less;                    # -<<
-    sub less asterisk greater by less_asterisk_greater;          # <*>
-    sub less bar greater by less_bar_greater;                    # <|>
-    sub less dollar greater by less_dollar_greater;              # <$>
-    sub less plus greater by less_plus_greater;                  # <+>
-    sub less less less by less_less_less;                        # <<<
-    sub period period period by period_period_period;            # ...
-    sub plus plus plus by plus_plus_plus;                        # +++
 
-    # 2-character ligs
-#    sub ampersand ampersand by ampersand_ampersand;              # &&
-    sub asterisk greater by asterisk_greater;                    # *>
-    sub backslash backslash by backslash_backslash;              # \\
-    sub bar bar by bar_bar;                                      # ||
-    sub bar greater by bar_greater;                              # |>
-    sub colon colon by colon_colon;                              # ::
-    sub equal equal by equal_equal;                              # ==
-    sub equal greater by equal_greater;                          # =>
-    sub exclam exclam by exclam_exclam;                          # !!
-#    sub greater equal by greater_equal;                          # >=
-    sub greater greater by greater_greater;                      # >>
-    sub greater hyphen by greater_hyphen;                        # >-
-    sub hyphen greater by hyphen_greater;                        # ->
-    sub hyphen less by hyphen_less;                              # -<
-    sub less asterisk by less_asterisk;                          # <*
-#    sub less dollar by less_dollar;                              # <$
-#    sub less equal by less_equal;                                # <=
-    sub less greater by less_greater;                            # <>
-    sub less bar by less_bar;                                    # <|
-    sub less hyphen by less_hyphen;                              # <-
-    sub less less by less_less;                                  # <<
-    sub period period by period_period;                          # ..
-    sub plus plus by plus_plus;                                  # ++
-    sub slash equal by slash_equal;                              # /=
-} liga;
