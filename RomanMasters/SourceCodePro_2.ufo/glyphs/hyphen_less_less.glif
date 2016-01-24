@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen_less_less" format="1">
-  <advance width="1800"/>
+  <advance width="600"/>
   <outline>
-    <component base="less_less" xOffset="600"/>
-    <component base="minus" xScale="2.51695" yScale="0.975" xOffset="-97" yOffset="10"/>
+    <component base="less_less"/>
+    <component base="minus" xOffset="-1297" yOffset="10" xScale="2.517" yScale="0.975"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
   </lib>
 </glyph>
