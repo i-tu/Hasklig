@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less_exclam_greater" format="1">
-  <advance width="1800"/>
+  <advance width="600"/>
   <outline>
     <contour>
       <point x="1686" y="390" type="line"/>

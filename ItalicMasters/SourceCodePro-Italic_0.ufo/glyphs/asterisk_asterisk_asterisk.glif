@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asterisk_asterisk_asterisk" format="1">
-  <advance width="1800"/>
+  <advance width="600"/>
   <outline>
     <component base="asterisk" xOffset="1100"/>
     <component base="asterisk.a" xOffset="600"/>

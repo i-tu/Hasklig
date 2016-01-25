@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ampersand_ampersand" format="1">
-  <advance width="1200"/>
+  <advance width="600"/>
   <outline>
     <contour>
       <point x="277" y="644" type="curve" smooth="yes"/>
