@@ -2,7 +2,7 @@
 <glyph name="hyphen_less_less" format="1">
   <advance width="600"/>
   <outline>
-    <component base="less_less" xOffset="-600"/>
+    <component base="less_less"/>
     <component base="minus" xOffset="-1369" xScale="2.725"/>
   </outline>
   <lib>

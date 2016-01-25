@@ -3,7 +3,7 @@
   <advance width="600"/>
   <outline>
     <component base="slash" xOffset="-530" yOffset="70" yScale="0.9"/>
-    <component base="equal_equal" xOffset="-600"/>
+    <component base="equal_equal"/>
   </outline>
   <lib>
     <dict>
