@@ -79,6 +79,8 @@ To build the binary font files from source, you need to have installed the
 tools are widely used for font development today, and are part of most font
 editor applications.
 
+Some SVG glyphs are inserted into the fonts using Python [FontTools](https://pypi.python.org/pypi/FontTools).
+
 #### Building font instances from masters
 
 This repository only includes so-called *master* weights of the fonts (effectively extralight and black).
