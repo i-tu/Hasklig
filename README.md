@@ -58,6 +58,7 @@ This list is compiled based on reports on the current state of support for code 
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 + Vico
 + Visual Studio 2015
++ [Visual Studio Code](https://code.visualstudio.com)
 + Xcode (requires [an additional plugin](https://github.com/robertvojta/LigatureXcodePlugin)) 
 
 #### No support
