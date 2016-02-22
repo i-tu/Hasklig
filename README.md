@@ -66,7 +66,7 @@ This list is compiled based on reports on the current state of support for code 
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615). Note that the 0.9 typeface family has been patched with the fix mentioned.)
 - iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
-- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
+- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topics/4719-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 - Terminal (OSX)
 - Xamarin Studio/Monodevelop
 
