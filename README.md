@@ -1,14 +1,14 @@
-_N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe/source-code-pro)
+_N.B. This is a fork of the_ [Source Code Pro repository](https://github.com/adobe-fonts/source-code-pro)
 
 ### Hasklig – _Ligatures for code_
 
 Programming languages are limited to relatively few characters. As a result, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit.
 
-Composite glyphs are problematic in languages such as Haskell which utilize these complicated operators (`=>` `-<` `>>=` etc.) extensively. The readability of such complex code improves with pretty printing. Academic articles featuring Haskell code often use [lhs2tex](http://www.andres-loeh.de/lhs2tex/) to achieve an appealing rendering, but it is of no use when programming.
+Composite glyphs are problematic in languages such as Haskell which utilize these complicated operators (`=>` `-<` `>>=` etc.) extensively. The readability of such complex code improves with pretty printing. Academic articles featuring Haskell code often use [lhs2tex](https://www.andres-loeh.de/lhs2tex/) to achieve an appealing rendering, but it is of no use when programming.
 
 Some Haskellers have resorted to Unicode symbols (`⇒`, `←` _etc._), which are valid in the <span style="font-variant: small-caps">ghc</span>. However they are one-character-wide and therefore eye-strainingly small. Furthermore, when displayed as substitutes to the underlying multi-character representation, as [vim2hs] (https://github.com/dag/vim2hs) does, the characters go out of alignment.
 
-Hasklig solves the problem the way typographers have always solved ill-fitting characters which co-occur often: [ligatures](http://en.wikipedia.org/wiki/Typographic_ligature). The underlying code stays the same — only the representation changes.
+Hasklig solves the problem the way typographers have always solved ill-fitting characters which co-occur often: [ligatures](https://en.wikipedia.org/wiki/Typographic_ligature). The underlying code stays the same — only the representation changes.
 
 Not only can multi-character glyphs be rendered more vividly, other problematic things in monospaced fonts, such as spacing can be corrected.
 
@@ -28,7 +28,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 		- Better powerline symbols
 		- [Much, much more](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro%2F1.030R-it)
 	- Added tags that enable support for some IntelliJ IDEA Builds
-+ v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/Lokaltog/powerline) symbol support
++ v0.4: New ligatures: `<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>`,  [Powerline](https://github.com/powerline/powerline) symbol support
 + v0.3: New ligatures: `<<<` `>>>` `<>` and `+++`
 + v0.2: Lengthened `==` and `/=` to match other equals signs
 + v0.1: Ligatures `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` and `==`
