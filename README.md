@@ -20,7 +20,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 #### Source Code Pro
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
-### Release notes 
+### Release notes
 + [v0.9]((https://github.com/i-tu/Hasklig/releases/download/0.9/Hasklig-0.9.zip)): This is a major update so YMMV. Please report any issues.
 	+ Converted to UFO format and updated base fonts to benefit from work done on [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/):
 		- ***Italics!***
@@ -34,10 +34,10 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 + v0.1: Ligatures `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` and `==`
 
 #### Currently implemented symbols
-`<*` `<*>` `<+>` `<$>` `***`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
+`<*` `<*>` `<+>` `<$>` `***` `<|` `|>`  `<|>` `!!` `||` `===` `==>` `<<<` `>>>` `<>` `+++` `<-` `->` `=>` `>>` `<<` `>>=` `=<<` `..` `...` `::` `-<` `>-` `-<<` `>>-` `++` `/=` `==`
 
 #### Editor Support
-This list is compiled based on reports on the current state of support for code editors and terminals. This list 
+This list is compiled based on reports on the current state of support for code editors and terminals. This list
 
 #### Supported editors
 + Atom (*[since v1.1.0](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html)*)
@@ -50,7 +50,7 @@ This list is compiled based on reports on the current state of support for code 
 + KWrite
 + Leksah (_x64 W8 reported not working_)
 + Light Table ([Instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
-+ MacVim (_Since release 79. See [Issue 32](https://github.com/i-tu/Hasklig/issues/32)_) 
++ MacVim (_Since release 79. See [Issue 32](https://github.com/i-tu/Hasklig/issues/32)_)
 + QtCreator (_v.3.2.2 on GNU/Linux x64_)
 + RStudio
 + Smultron
@@ -58,14 +58,15 @@ This list is compiled based on reports on the current state of support for code 
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 + Vico
 + Visual Studio 2015
-+ Xcode (requires [an additional plugin](https://github.com/robertvojta/LigatureXcodePlugin)) 
++ [Visual Studio Code](https://code.visualstudio.com)
++ Xcode (requires [an additional plugin](https://github.com/robertvojta/LigatureXcodePlugin))
++ IntelliJ IDEA (*[since v2016.2](https://blog.jetbrains.com/idea/2016/07/intellij-idea-2016-2-is-here)*)
 
 #### No support
 - Emacs
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
-- Intellij IDEA ([Has feature request](https://youtrack.jetbrains.com/issue/IDEA-127539) and a [working hack with a preview build](https://youtrack.jetbrains.com/issue/IDEA-127539#comment=27-1075615). Note that the 0.9 typeface family has been patched with the fix mentioned.)
 - iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
-- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topic/433445-/))
+- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topics/4719-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 - Terminal (OSX)
 - Xamarin Studio/Monodevelop
 
