@@ -43,7 +43,7 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 This list is compiled based on reports on the current state of support for code editors and terminals. This list
 
 #### Supported editors
-+ Atom (*[since v1.1.0](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html)*)
++ Atom (*[since v1.1.0](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html)*) ([Hasklig Plugin:](https://atom.io/packages/hasklig) by [adilparvez](https://github.com/adilparvez))
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
 + Geany
