@@ -59,7 +59,7 @@ exit /b 1
 ::
 :: Get directory name from full path name.
 :: Usage:
-::   GetDirectoryName VARIABLE VALUE
+::   GetDirectoryName VARIABLE VALUE 
 ::
 :GetDirectoryName
 call set %~1=%~dp2

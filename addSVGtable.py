@@ -19,7 +19,7 @@ except ImportError:
 # support for the SVG table was added to FontTools on Aug 28, 2013
 # https://github.com/behdad/fonttools/commit/ddcca79308b52dc36b24ef94cab4ab00c8e32376
 minFontToolsVersion = '2.5'
-if StrictVersion(version) < StrictVersion(minFontToolsVersion):
+if False: # StrictVersion(version) < StrictVersion(minFontToolsVersion):
 	print >> sys.stderr, "ERROR:  The FontTools module version must be %s or higher.\n\
 	You have version %s installed.\n\
 	Get the latest version at https://github.com/behdad/fonttools" % (minFontToolsVersion, version)
@@ -32,6 +32,7 @@ TABLE_TAG = 'SVG '
 reSVGelement = re.compile(r"<svg.+?>.+?</svg>", re.DOTALL)
 reIDvalue = re.compile(r"<svg[^>]+?(id=\".*?\").+?>", re.DOTALL)
 reViewBox = re.compile(r"<svg.+?(viewBox=[\"|\'][\d, ]+[\"|\']).+?>", re.DOTALL)
+reWhiteSpace = re.compile(r">\s+<", re.DOTALL)
 
 
 def readFile(filePath):
@@ -84,7 +85,10 @@ def processFontFile(fontFilePath, svgFilePathsList):
 		svgItemData = readFile(svgFilePath)
 		svgItemData = setIDvalue(svgItemData, gid)
 		svgItemData = fixViewBox(svgItemData)
-		svgItemsList.append(svgItemData)
+		# Remove all white space between elements
+		for whiteSpace in set(reWhiteSpace.findall(svgItemData)):
+			svgItemData = svgItemData.replace(whiteSpace, '><')
+		svgItemsList.append(svgItemData.strip())
 		svgItemsList.extend([gid, gid])
 		svgDocsDict[gid] = svgItemsList
 
@@ -96,6 +100,7 @@ def processFontFile(fontFilePath, svgFilePathsList):
 	svgDocsList = [svgDocsDict[index] for index in sorted(svgDocsDict.keys())]
 
 	svgTable = ttLib.newTable(TABLE_TAG)
+	svgTable.compressed = True # GZIP the SVG docs
 	svgTable.docList = svgDocsList
 	font[TABLE_TAG] = svgTable
 
