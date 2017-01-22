@@ -12,7 +12,7 @@ Hasklig solves the problem the way typographers have always solved ill-fitting c
 
 Not only can multi-character glyphs be rendered more vividly, other problematic things in monospaced fonts, such as spacing can be corrected.
 
-[**Download Hasklig Font Family v1.0**](https://github.com/i-tu/Hasklig/files/721295/Hasklig-1.0.zip)
+[**Download Hasklig Font Family v1.1**](https://github.com/i-tu/Hasklig/files/721295/Hasklig-1.1.zip)
 
 #### Hasklig
 ![Hasklig Sample](hasklig_example.png?raw=true)
@@ -21,7 +21,11 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
 ### Release notes
-+ [v1.0]((https://github.com/i-tu/Hasklig/releases/download/1.0/Hasklig-1.0.zip))
++ [v1.1](https://github.com/i-tu/Hasklig/releases/tag/1.1)
+    + New ligatures `->>`, `:::`, `>=>`, `<=<`, `<=>`, `<->`
+    + Switched to newer version of calt code by [Nikita Prokopov](https://github.com/tonsky/FiraCode). It "doesn’t apply ligatures to long sequences of chars, e.g. !!!!, >>>>, etc"
+    + Fixed `++` and `+++` line inconsistency in heavy italic weights
++ [v1.0](https://github.com/i-tu/Hasklig/releases/tag/1.0)
     + Updates to the latest version of SCP
     + Hasklig moves to a ligature substitution mechanism borrowed from the excellent [Fira Code by Nikita Prokopov](https://github.com/tonsky/FiraCode)
 + [v0.9]((https://github.com/i-tu/Hasklig/releases/download/0.9/Hasklig-0.9.zip)): This is a major update so YMMV. Please report any issues.

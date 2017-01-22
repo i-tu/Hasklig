@@ -2652,27 +2652,19 @@
 		<string>bar_greater.glif</string>
 		<key>less_exclam_greater</key>
 		<string>less_exclam_greater.glif</string>
-		<key>CR.00</key>
-		<string>cr_00.glif</string>
-		<key>CR.01</key>
-		<string>cr_01.glif</string>
-		<key>CR.02</key>
-		<string>cr_02.glif</string>
-		<key>CR.03</key>
-		<string>cr_03.glif</string>
-		<key>CR.04</key>
-		<string>cr_04.glif</string>
-		<key>CR.05</key>
-		<string>cr_05.glif</string>
-		<key>CR.06</key>
-		<string>cr_06.glif</string>
-		<key>CR.07</key>
-		<string>cr_07.glif</string>
-		<key>CR.08</key>
-		<string>cr_08.glif</string>
-		<key>CR.09</key>
-		<string>cr_09.glif</string>
-		<key>CR.10</key>
-		<string>cr_10.glif</string>
+		<key>hyphen_greater_greater</key>
+		<string>hyphen_greater_greater.glif</string>
+		<key>colon_colon_colon</key>
+		<string>colon_colon_colon.glif</string>
+		<key>greater_equal_greater</key>
+		<string>greater_equal_greater.glif</string>
+		<key>less_hyphen_greater</key>
+		<string>less_hyphen_greater.glif</string>
+		<key>less_equal_greater</key>
+		<string>less_equal_greater.glif</string>
+		<key>less_equal_less</key>
+		<string>less_equal_less.glif</string>
+		<key>LIG</key>
+		<string>L_I_G_.glif</string>
 	</dict>
 </plist>

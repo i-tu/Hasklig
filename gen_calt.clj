@@ -21,23 +21,28 @@
 
 #^:shebang '[
               exec java -cp "$HOME/.m2/repository/org/clojure/clojure/1.7.0/clojure-1.7.0.jar" clojure.main "$0" "$@"]
-             
+
 
 (require '[clojure.string :as str])
 
 (def ligas
    [ ["asterisk" "asterisk" "asterisk"]
      ;["bar" "bar" "bar"]
+     ["colon" "colon" "colon"]
      ["equal" "equal" "equal"]
      ["equal" "equal" "greater"]
      ["equal" "less" "less"]
      ["greater" "greater" "equal"]
      ["greater" "greater" "greater"]
      ["greater" "greater" "hyphen"]
+     ["hyphen" "greater" "greater"]
      ["hyphen" "less" "less"]
      ["less" "asterisk" "greater"]
      ["less" "bar" "greater"]
      ["less" "dollar" "greater"]
+     ["less" "equal" "greater"]
+     ["less" "equal" "less"]
+     ["less" "hyphen" "greater"]
      ["less" "plus" "greater"]
      ["less" "less" "less"]
      ["period" "period" "period"]
@@ -50,6 +55,7 @@
      ["equal" "equal"]
      ["equal" "greater"]
      ["exclam" "exclam"]
+     ["greater" "equal" "greater"]
      ["greater" "greater"]
      ["greater" "hyphen"]
      ["hyphen" "greater"]
@@ -61,90 +67,69 @@
      ["less" "less"]
      ["period" "period"]
      ["plus" "plus"]
-     ["slash" "equal"]]) 
+     ["slash" "equal"]])
 
-(defn liga->rules
-  "[f f i] => { [CR CR i] f_f_i
-                [CR  f i] CR
-                [ f  f i] CR }"
-  [liga CR]
-  (case (count liga)
-    2 (let [[a b] liga]
-       { [CR  b] (str a "_" b)
-         [ a  b] CR}) 
-    3 (let [[a b c] liga]
-       { [CR CR  c] (str a "_" b "_" c)
-         [CR  b  c] CR
-         [ a  b  c] CR}) 
-    4 (let [[a b c d] liga]
-       { [CR CR CR  d] (str a "_" b "_" c "_" d)
-         [CR CR  c  d] CR
-         [CR  b  c  d] CR
-         [ a  b  c  d] CR})))
+     (def ignores
+       { ["slash" "asterisk"]
+         (str
+           "    ignore sub slash' asterisk slash;\n"
+           "    ignore sub asterisk slash' asterisk;\n")
 
+         ["asterisk" "slash"]
+         (str
+           "    ignore sub slash asterisk' slash;\n"
+           "    ignore sub asterisk' slash asterisk;\n")
 
-(defn any? [p & colls]
-  (if colls
-    (let [[coll & cs] colls]
-      (some #(apply any? (partial p %) cs) coll))
-    (p)))
+         ["asterisk" "asterisk"]
+         (str
+           "    ignore sub slash asterisk' asterisk;\n"
+           "    ignore sub asterisk' asterisk slash;\n")
 
+         ["asterisk" "asterisk" "asterisk"]
+         (str
+           "    ignore sub slash asterisk' asterisk asterisk;\n"
+           "    ignore sub asterisk' asterisk asterisk slash;\n")
 
-(defn conflicts? [r1 r2]
-  (when (.startsWith (first r2) "CR.") ;; we accept that higher-len ligatures can override lower-length
-                                       ;; but once replacement has started (first glyph in rule is CR.*)
-                                       ;; there should be no possibility for conflits
-    (let [l1 (count r1)
-          l2 (count r2)
-          prefix1 (subvec r1 0 l2)]
-      (= r2 prefix1))))
+         })
 
+     (defn liga->rule
+       "[f f i] => { [LIG LIG i] f_f_i
+                     [LIG   f i] LIG
+                     [ f    f i] LIG }"
+       [liga]
+       (case (count liga)
+         2 (let [[a b] liga]
+             (str/replace
+               (str "  lookup 1_2 {\n"
+                    "    ignore sub 1 1' 2;\n"
+                    "    ignore sub 1' 2 2;\n"
+                    (get ignores liga)
+                    "    sub LIG 2' by 1_2;\n"
+                    "    sub 1'  2  by LIG;\n"
+                    "  } 1_2;")
+               #"\d" {"1" a "2" b}))
+         3 (let [[a b c] liga]
+             (str/replace
+               (str "  lookup 1_2_3 {\n"
+                    "    ignore sub 1 1' 2 3;\n"
+                    "    ignore sub 1' 2 3 3;\n"
+                    (get ignores liga)
+                    "    sub LIG LIG 3' by 1_2_3;\n"
+                    "    sub LIG  2' 3  by LIG;\n"
+                    "    sub 1'   2  3  by LIG;\n"
+                    "  } 1_2_3;")
+               #"\d" {"1" a "2" b "3" c}))
+         4 (let [[a b c d] liga]
+             (str/replace
+               (str "  lookup 1_2_3_4 {\n"
+                    "    ignore sub 1 1' 2 3 4;\n"
+                    "    ignore sub 1' 2 3 4 4;\n"
+                    (get ignores liga)
+                    "    sub LIG LIG LIG 4' by 1_2_3_4;\n"
+                    "    sub LIG LIG  3' 4  by LIG;\n"
+                    "    sub LIG  2'  3  4  by LIG;\n"
+                    "    sub 1'   2   3  4  by LIG;\n"
+                    "  } 1_2_3_4;")
+               #"\d" {"1" a "2" b "3" c "4" d}))))
 
-(def all-rules
-  (reduce
-    (fn [generated liga]
-      (merge generated 
-        ;; looking for smallest i that does not conflict
-        ;; with any of previous rules
-        (some (fn [i]
-                (let [CR (str "CR." (String/format "%02d" (to-array [i])))
-                      rs (liga->rules liga CR)]  
-                  (when-not (any? conflicts? (keys generated) (keys rs))
-                    rs)))
-              (range))))
-    {}
-    (->> ligas (sort-by count) reverse)))
-    
-    
-(defn priority-fn [[from to]]
-  [;; first compare how many CRs are there (more is better)
-   (- (count (filter #(re-matches #"CR\.\d+" %) from)))
-   ;; then overal length (more is better)
-   (- (count from))
-   ;; then alphabetical sort with coercing each vector to the same length
-   (into from (repeat (- 4 (count from)) "z"))])
-
-
-(def table (->> all-rules
-                (sort-by priority-fn)))
-
-
-(defn rule->str [[from to]]
-  (loop [res             "sub"
-         seen-non-empty? false
-         tokens          from]
-    (if-let [token (first tokens)]
-      (let [class? (.startsWith token "@")
-            CR?    (.startsWith token "CR.")
-            escaped-token (cond
-                            class?          token
-                            CR?             (str "\\" token)
-                            seen-non-empty? (str "\\" token)
-                            :else           (str "\\" token "'"))]
-        (recur (str res " " escaped-token) (not CR?) (next tokens)))
-      (str res " by \\" to ";"))))
-      
-
-(println "feature calt {")
-(println " " (->> table (map rule->str) (str/join "\n  ")))
-(println "} calt;\n")
+     (println (->> ligas (sort-by count) (reverse) (map liga->rule) (str/join "\n\n")))

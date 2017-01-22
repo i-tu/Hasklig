@@ -1621,3 +1621,9 @@ uniE120 period_period_period
 uniE121 plus_plus
 uniE122 plus_plus_plus
 uniE123 slash_equal
+uniE124 colon_colon_colon
+uniE125 greater_equal_greater
+uniE126 hyphen_greater_greater
+uniE127 less_equal_greater
+uniE128 less_equal_less
+uniE129 less_hyphen_greater

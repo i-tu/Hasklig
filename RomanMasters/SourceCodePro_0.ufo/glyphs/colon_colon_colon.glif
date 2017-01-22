@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon_colon_colon" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="period_period_period"/>
+    <component base="period_period_period" yOffset="386"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-21 17:53:56 +0000</string>
+    </dict>
+  </lib>
+</glyph>

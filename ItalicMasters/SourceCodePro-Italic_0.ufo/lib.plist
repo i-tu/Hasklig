@@ -3932,6 +3932,13 @@
 			<string>ampersand_ampersand</string>
 			<string>bar_greater</string>
 			<string>less_exclam_greater</string>
+			<string>hyphen_greater_greater</string>
+			<string>colon_colon_colon</string>
+			<string>greater_equal_greater</string>
+			<string>less_hyphen_greater</string>
+			<string>less_equal_greater</string>
+			<string>less_equal_less</string>
+			<string>LIG</string>
 		</array>
 	</dict>
 </plist>
