@@ -12,7 +12,7 @@ Hasklig solves the problem the way typographers have always solved ill-fitting c
 
 Not only can multi-character glyphs be rendered more vividly, other problematic things in monospaced fonts, such as spacing can be corrected.
 
-[**Download Hasklig Font Family v1.1**](https://github.com/i-tu/Hasklig/files/721295/Hasklig-1.1.zip)
+[**Download Hasklig Font Family v1.1**](https://github.com/i-tu/Hasklig/releases/download/1.1/Hasklig-1.1.zip)
 
 #### Hasklig
 ![Hasklig Sample](hasklig_example.png?raw=true)
