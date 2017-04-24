@@ -53,7 +53,7 @@ This list is compiled based on reports on the current state of support for code 
 + Chocolat
 + Geany
 + gEdit
-+ iTerm2
++ iTerm2 (*[Currently only using beta build – 3.1 and onwards](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)*)
 + Kate
 + Konsole
 + KWrite
