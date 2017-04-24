@@ -53,6 +53,7 @@ This list is compiled based on reports on the current state of support for code 
 + Chocolat
 + Geany
 + gEdit
++ iTerm2
 + Kate
 + Konsole
 + KWrite
@@ -62,20 +63,22 @@ This list is compiled based on reports on the current state of support for code 
 + QtCreator (_v.3.2.2 on GNU/Linux x64_)
 + RStudio
 + Smultron
++ Terminal (OSX)
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
 + Vico
 + Visual Studio 2015
-+ [Visual Studio Code](https://code.visualstudio.com)
++ Visual Studio Code
 + Xcode (requires [an additional plugin](https://github.com/robertvojta/LigatureXcodePlugin))
 + IntelliJ IDEA (*[since v2016.2](https://blog.jetbrains.com/idea/2016/07/intellij-idea-2016-2-is-here)*)
 
 #### No support
 - Emacs
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
-- iTerm2 ([details](https://gitlab.com/gnachman/iterm2/issues/3568))
+- KDevelop 4
+- Notepad++
 - Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topics/4719-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-- Terminal (OSX)
+
 - Xamarin Studio/Monodevelop
 
 
