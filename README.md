@@ -63,6 +63,7 @@ This list is compiled based on reports on the current state of support for code 
 + QtCreator (_v.3.2.2 on GNU/Linux x64_)
 + RStudio
 + Smultron
++ Sublime Text 3
 + Terminal (OSX)
 + TextEdit
 + TextMate (_from version 2.0-alpha.9549 onwards_)
@@ -77,8 +78,6 @@ This list is compiled based on reports on the current state of support for code 
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - KDevelop 4
 - Notepad++
-- Sublime Text (_Vote for the enhancement_ [**here**](http://sublimetext.userecho.com/topics/4719-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-
 - Xamarin Studio/Monodevelop
 
 
