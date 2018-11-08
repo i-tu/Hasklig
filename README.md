@@ -51,6 +51,7 @@ This list is compiled based on reports on the current state of support for code 
   - Can also be installed as package courtesy of [atom-hasklig](https://atom.io/packages/hasklig) by [adilparvez](https://github.com/adilparvez)
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
 + Chocolat
++ Emacs (macport works out of the box, other platforms require an [additional plugin](https://github.com/minad/hasklig-mode))
 + Geany
 + gEdit
 + iTerm2 (*[Currently only using beta build – 3.1 and onwards](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)*)
@@ -74,7 +75,6 @@ This list is compiled based on reports on the current state of support for code 
 + IntelliJ IDEA (*[since v2016.2](https://blog.jetbrains.com/idea/2016/07/intellij-idea-2016-2-is-here)*)
 
 #### No support
-- Emacs
 - gVim (_output corrupted. A_ [patch](https://groups.google.com/forum/#!topic/vim_dev/0sETSAwe5Wo) _exists, but it has not been incorporated into mainstream gVim._)
 - KDevelop 4
 - Notepad++
