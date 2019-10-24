@@ -80,6 +80,8 @@ This list is compiled based on reports on the current state of support for code 
 - Notepad++
 - Xamarin Studio/Monodevelop
 
+### Install on Windows via Chocolatey
+Run:  `choco install hasklig`
 
 ### Building the fonts from source
 
