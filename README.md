@@ -50,6 +50,7 @@ This list is compiled based on reports on the current state of support for code 
 + Atom (*[since v1.1.0](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html)*)
   - Can also be installed as package courtesy of [atom-hasklig](https://atom.io/packages/hasklig) by [adilparvez](https://github.com/adilparvez)
 + BBEdit 11 ([Instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
++ Brackets
 + Chocolat
 + Geany
 + gEdit
