@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_greater_hyphen" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-124" y="348" type="line"/>
+			<point x="-626" y="602" type="line"/>
+			<point x="-626" y="566" type="line"/>
+			<point x="-176" y="344" type="line"/>
+			<point x="-576" y="344" type="line"/>
+			<point x="-1086" y="602" type="line"/>
+			<point x="-1086" y="566" type="line"/>
+			<point name="hintSet0007" x="-616" y="334" type="line"/>
+			<point x="-616" y="330" type="line"/>
+			<point x="-1086" y="98" type="line"/>
+			<point x="-1086" y="62" type="line"/>
+			<point name="hintSet0011" x="-584" y="316" type="line"/>
+			<point x="-184" y="316" type="line"/>
+			<point x="-626" y="98" type="line"/>
+			<point x="-626" y="62" type="line"/>
+			<point x="-124" y="316" type="line"/>
+			<point x="502" y="316" type="line"/>
+			<point x="502" y="344" type="line"/>
+			<point x="-124" y="344" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 316 28</string>
+							<string>vstem -1086 1588</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0007</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 334 10</string>
+							<string>vstem -1086 1588</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0011</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 316 28</string>
+							<string>vstem -1086 1588</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>3bd413b447e3caeb5ebc2869ca8b4012943aa6f1e268b6464503ae3491e74c9ec2e1d3e7d4692d9ac5cbd9d00db876177518c047449ea40f26a27286a6c60585</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

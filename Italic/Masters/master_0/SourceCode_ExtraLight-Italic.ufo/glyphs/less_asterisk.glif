@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_asterisk" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-476" y="316" type="line"/>
+      <point x="44" y="38" type="line"/>
+      <point x="34" y="74" type="line"/>
+      <point x="-444" y="330" type="line"/>
+      <point x="-444" y="334" type="line"/>
+      <point x="42" y="597" type="line"/>
+      <point x="42" y="633" type="line"/>
+      <point x="-476" y="348" type="line"/>
+    </contour>
+    <contour>
+      <point x="480" y="213" type="line"/>
+      <point x="308" y="337" type="line"/>
+      <point x="480" y="461" type="line"/>
+      <point x="463" y="485" type="line"/>
+      <point x="290" y="367" type="line"/>
+      <point x="218" y="536" type="line"/>
+      <point x="194" y="527" type="line"/>
+      <point x="256" y="358" type="line"/>
+      <point x="60" y="355" type="line"/>
+      <point x="60" y="319" type="line"/>
+      <point x="256" y="316" type="line"/>
+      <point x="194" y="147" type="line"/>
+      <point x="218" y="138" type="line"/>
+      <point x="290" y="307" type="line"/>
+      <point x="463" y="189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

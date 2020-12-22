@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_equal_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-880" y="413" type="line"/>
+			<point x="326" y="413" type="line"/>
+			<point x="326" y="451" type="line"/>
+			<point x="-880" y="451" type="line"/>
+		</contour>
+		<contour>
+			<point x="-880" y="210" type="line"/>
+			<point x="326" y="210" type="line"/>
+			<point x="326" y="247" type="line"/>
+			<point x="-880" y="247" type="line"/>
+		</contour>
+		<contour>
+			<point x="112" y="58" type="line"/>
+			<point x="507" y="332" type="line"/>
+			<point x="112" y="606" type="line"/>
+			<point x="112" y="558" type="line"/>
+			<point x="437" y="332" type="line"/>
+			<point x="112" y="106" type="line"/>
+		</contour>
+		<component base="greater" xOffset="-1200"/>
+	</outline>
+</glyph>

@@ -32,49 +32,49 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Source Code Pro" filename="../Instances/ExtraLightIt/font.ufo" postscriptfontname="SourceCodePro-ExtraLightIt" stylename="ExtraLightIt">
+        <instance familyname="Hasklig" filename="../Instances/ExtraLightIt/font.ufo" postscriptfontname="Hasklig-ExtraLightIt" stylename="ExtraLightIt">
             <location>
                 <dimension name="weight" xvalue="0" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Source Code Pro" filename="../Instances/LightIt/font.ufo" postscriptfontname="SourceCodePro-LightIt" stylename="LightIt">
+        <instance familyname="Hasklig" filename="../Instances/LightIt/font.ufo" postscriptfontname="Hasklig-LightIt" stylename="LightIt">
             <location>
                 <dimension name="weight" xvalue="100" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Source Code Pro" filename="../Instances/It/font.ufo" postscriptfontname="SourceCodePro-It" stylename="It">
+        <instance familyname="Hasklig" filename="../Instances/It/font.ufo" postscriptfontname="Hasklig-It" stylename="It">
             <location>
                 <dimension name="weight" xvalue="368" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Source Code Pro" filename="../Instances/MediumIt/font.ufo" postscriptfontname="SourceCodePro-MediumIt" stylename="MediumIt">
+        <instance familyname="Hasklig" filename="../Instances/MediumIt/font.ufo" postscriptfontname="Hasklig-MediumIt" stylename="MediumIt">
             <location>
                 <dimension name="weight" xvalue="486" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Source Code Pro" filename="../Instances/SemiboldIt/font.ufo" postscriptfontname="SourceCodePro-SemiboldIt" stylename="SemiboldIt">
+        <instance familyname="Hasklig" filename="../Instances/SemiboldIt/font.ufo" postscriptfontname="Hasklig-SemiboldIt" stylename="SemiboldIt">
             <location>
                 <dimension name="weight" xvalue="600" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Source Code Pro" filename="../Instances/BoldIt/font.ufo" postscriptfontname="SourceCodePro-BoldIt" stylename="BoldIt">
+        <instance familyname="Hasklig" filename="../Instances/BoldIt/font.ufo" postscriptfontname="Hasklig-BoldIt" stylename="BoldIt">
             <location>
                 <dimension name="weight" xvalue="824" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Source Code Pro" filename="../Instances/BlackIt/font.ufo" postscriptfontname="SourceCodePro-BlackIt" stylename="BlackIt">
+        <instance familyname="Hasklig" filename="../Instances/BlackIt/font.ufo" postscriptfontname="Hasklig-BlackIt" stylename="BlackIt">
             <location>
                 <dimension name="weight" xvalue="1000" />
             </location>

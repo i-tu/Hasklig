@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period_period" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="138" y="-12" type="curve"/>
+			<point x="170" y="-12"/>
+			<point x="200" y="22"/>
+			<point x="200" y="56" type="curve"/>
+			<point x="200" y="84"/>
+			<point x="184" y="102"/>
+			<point x="158" y="102" type="curve"/>
+			<point x="126" y="102"/>
+			<point x="96" y="68"/>
+			<point x="96" y="34" type="curve"/>
+			<point x="96" y="6"/>
+			<point x="112" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-362" y="-12" type="curve"/>
+			<point x="-330" y="-12"/>
+			<point x="-300" y="22"/>
+			<point x="-300" y="56" type="curve"/>
+			<point x="-300" y="84"/>
+			<point x="-316" y="102"/>
+			<point x="-342" y="102" type="curve"/>
+			<point x="-374" y="102"/>
+			<point x="-404" y="68"/>
+			<point x="-404" y="34" type="curve"/>
+			<point x="-404" y="6"/>
+			<point x="-388" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-862" y="-12" type="curve"/>
+			<point x="-830" y="-12"/>
+			<point x="-800" y="22"/>
+			<point x="-800" y="56" type="curve"/>
+			<point x="-800" y="84"/>
+			<point x="-816" y="102"/>
+			<point x="-842" y="102" type="curve"/>
+			<point x="-874" y="102"/>
+			<point x="-904" y="68"/>
+			<point x="-904" y="34" type="curve"/>
+			<point x="-904" y="6"/>
+			<point x="-888" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 114</string>
+							<string>vstem -904 104</string>
+							<string>vstem -404 104</string>
+							<string>vstem 96 104</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>633acf26c6e328375f4fad80c43bb9d37d64a7f08f717f0f0ba776ce516932ae6b69321b85d82ded6ddb7058d9736029d2e002d4c6a5e0ebb023c791ca714816</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

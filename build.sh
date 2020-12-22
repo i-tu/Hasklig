@@ -2,7 +2,7 @@
 
 set -e
 
-family=SourceCodePro
+family=Hasklig
 roman_weights=(Black Bold ExtraLight Light Medium Regular Semibold)
 italic_weights=(BlackIt BoldIt ExtraLightIt LightIt MediumIt It SemiboldIt)
 

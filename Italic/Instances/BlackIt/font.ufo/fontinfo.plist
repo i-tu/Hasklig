@@ -11,7 +11,7 @@
 		<key>descender</key>
 		<integer>-176</integer>
 		<key>familyName</key>
-		<string>Source Code Pro</string>
+		<string>Hasklig</string>
 		<key>guidelines</key>
 		<array>
 		</array>
@@ -57,7 +57,7 @@
 			<integer>-205</integer>
 		</array>
 		<key>postscriptFontName</key>
-		<string>SourceCodePro-BlackIt</string>
+		<string>Hasklig-BlackIt</string>
 		<key>postscriptIsFixedPitch</key>
 		<true/>
 		<key>postscriptOtherBlues</key>

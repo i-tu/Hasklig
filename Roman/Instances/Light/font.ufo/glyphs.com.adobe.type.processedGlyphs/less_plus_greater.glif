@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_plus_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="477" y="352" type="line"/>
+			<point x="-91" y="643" type="line"/>
+			<point x="-91" y="595" type="line"/>
+			<point x="434" y="334" type="line"/>
+			<point x="434" y="330" type="line"/>
+			<point x="-86" y="67" type="line"/>
+			<point x="-86" y="19" type="line"/>
+			<point x="477" y="312" type="line"/>
+		</contour>
+		<contour>
+			<point x="-321" y="110" type="line"/>
+			<point x="-279" y="110" type="line"/>
+			<point x="-279" y="311" type="line"/>
+			<point x="-55" y="311" type="line"/>
+			<point x="-55" y="349" type="line"/>
+			<point x="-279" y="349" type="line"/>
+			<point x="-279" y="550" type="line"/>
+			<point x="-321" y="550" type="line"/>
+			<point x="-321" y="349" type="line"/>
+			<point x="-545" y="349" type="line"/>
+			<point x="-545" y="311" type="line"/>
+			<point x="-321" y="311" type="line"/>
+		</contour>
+		<contour>
+			<point x="-1077" y="312" type="line"/>
+			<point x="-514" y="33" type="line"/>
+			<point x="-514" y="81" type="line"/>
+			<point x="-1034" y="330" type="line"/>
+			<point x="-1034" y="334" type="line"/>
+			<point x="-516" y="590" type="line"/>
+			<point x="-516" y="637" type="line"/>
+			<point x="-1077" y="352" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 311 38</string>
+							<string>vstem -1077 43</string>
+							<string>vstem -321 42</string>
+							<string>vstem 434 43</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>0166c715be1382b3ee767bd6484207d3822924d160b292096d8a691b674f6c0edd33f51d257f05642d9ef1731903f022f4daa1a0021d14783cf893d676756e05</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus_plus" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-482" y="316" type="line"/>
+      <point x="-401" y="316" type="line"/>
+      <point x="-401" y="344" type="line"/>
+      <point x="-482" y="344" type="line"/>
+    </contour>
+    <contour>
+      <point x="391" y="316" type="line"/>
+      <point x="482" y="316" type="line"/>
+      <point x="482" y="344" type="line"/>
+      <point x="391" y="344" type="line"/>
+    </contour>
+    <contour>
+      <point x="-66" y="316" type="line"/>
+      <point x="75" y="316" type="line"/>
+      <point x="75" y="344" type="line"/>
+      <point x="-66" y="344" type="line"/>
+    </contour>
+    <component base="plus" xOffset="-81"/>
+    <component base="plus" xOffset="-519"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>100</integer>
+          <key>y</key>
+          <integer>1131</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

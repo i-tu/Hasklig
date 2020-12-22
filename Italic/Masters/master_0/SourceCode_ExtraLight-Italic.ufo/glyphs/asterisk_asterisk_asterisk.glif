@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_asterisk_asterisk" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="asterisk" xOffset="-1100"/>
+    <component base="asterisk.a" xOffset="-600"/>
+    <component base="asterisk" xOffset="-100"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

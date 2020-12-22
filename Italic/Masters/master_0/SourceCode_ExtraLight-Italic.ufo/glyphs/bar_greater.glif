@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_greater" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="476" y="348" type="line"/>
+      <point x="-142" y="667" type="line"/>
+      <point x="-142" y="630" type="line"/>
+      <point x="444" y="334" type="line"/>
+      <point x="444" y="330" type="line"/>
+      <point x="-143" y="28" type="line"/>
+      <point x="-143" y="-9" type="line"/>
+      <point x="476" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="-314" y="-90" type="line"/>
+      <point x="-286" y="-90" type="line"/>
+      <point x="-286" y="750" type="line"/>
+      <point x="-314" y="750" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

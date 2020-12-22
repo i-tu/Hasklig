@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="482" y="378" type="line"/>
+			<point x="-57" y="659" type="line"/>
+			<point x="-57" y="552" type="line"/>
+			<point x="385" y="339" type="line"/>
+			<point x="385" y="335" type="line"/>
+			<point x="-56" y="117" type="line"/>
+			<point x="-56" y="10" type="line"/>
+			<point x="482" y="296" type="line"/>
+		</contour>
+		<contour>
+			<point x="-507" y="451" type="line"/>
+			<point x="-357" y="333" type="line"/>
+			<point x="-507" y="215" type="line"/>
+			<point x="-470" y="161" type="line"/>
+			<point x="-309" y="264" type="line"/>
+			<point x="-240" y="107" type="line"/>
+			<point x="-181" y="126" type="line"/>
+			<point x="-230" y="290" type="line"/>
+			<point x="-37" y="299" type="line"/>
+			<point x="-37" y="366" type="line"/>
+			<point x="-230" y="376" type="line"/>
+			<point x="-181" y="540" type="line"/>
+			<point x="-240" y="559" type="line"/>
+			<point x="-309" y="401" type="line"/>
+			<point x="-470" y="504" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 294.5 76.5</string>
+							<string>vstem 385 97</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>23a28419b1488766d4d97fa00dfdd2271f838cb7a23a6755ce69470f024afdc614494f50987a8c9e27d4b86aa9414bdcbfdcf3d22bdb446a62d69f4c6bbb36ff</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

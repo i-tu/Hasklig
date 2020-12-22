@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-476" y="316" type="line"/>
+			<point x="-1" y="-16" type="line"/>
+			<point x="475" y="318" type="line"/>
+			<point x="475" y="350" type="line"/>
+			<point x="0" y="682" type="line"/>
+			<point x="-476" y="348" type="line"/>
+		</contour>
+		<contour>
+			<point x="443" y="336" type="line"/>
+			<point x="443" y="332" type="line"/>
+			<point x="-1" y="20" type="line"/>
+			<point x="-444" y="330" type="line"/>
+			<point x="-444" y="334" type="line"/>
+			<point x="0" y="646" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -16 698</string>
+							<string>vstem -476 32</string>
+							<string>vstem 443 32</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w600l-476316l-1-16l475318l475350l0682l-476348l443336l443332l-120l-444330l-444334l0646</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

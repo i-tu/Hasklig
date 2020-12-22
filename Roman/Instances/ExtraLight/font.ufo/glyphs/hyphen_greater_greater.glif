@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_greater_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-1102" y="316" type="line"/>
+			<point x="461" y="316" type="line"/>
+			<point x="461" y="344" type="line"/>
+			<point x="-1102" y="344" type="line"/>
+		</contour>
+		<contour>
+			<point x="40" y="336" type="line"/>
+			<point x="-486" y="602" type="line"/>
+			<point x="-486" y="566" type="line"/>
+			<point x="-16" y="334" type="line"/>
+			<point x="-16" y="330" type="line"/>
+			<point x="-486" y="98" type="line"/>
+			<point x="-486" y="62" type="line"/>
+			<point x="40" y="328" type="line"/>
+		</contour>
+		<contour>
+			<point x="-26" y="602" type="line"/>
+			<point x="-26" y="566" type="line"/>
+			<point x="444" y="334" type="line"/>
+			<point x="444" y="330" type="line"/>
+			<point x="-26" y="98" type="line"/>
+			<point x="-26" y="62" type="line"/>
+			<point x="508" y="332" type="line"/>
+		</contour>
+	</outline>
+</glyph>

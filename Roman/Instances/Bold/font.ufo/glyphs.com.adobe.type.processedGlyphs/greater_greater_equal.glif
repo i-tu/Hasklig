@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_greater_equal" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-498" y="345" type="line"/>
+			<point x="-1102" y="633" type="line"/>
+			<point x="-1102" y="500" type="line"/>
+			<point x="-697" y="334" type="line"/>
+			<point x="-697" y="330" type="line"/>
+			<point x="-1102" y="164" type="line"/>
+			<point x="-1102" y="31" type="line"/>
+			<point x="-498" y="318" type="line"/>
+		</contour>
+		<contour>
+			<point name="hintSet0008" x="-116" y="383" type="line"/>
+			<point x="-141" y="395" type="line"/>
+			<point x="530" y="395" type="line"/>
+			<point x="530" y="498" type="line"/>
+			<point x="-358" y="498" type="line"/>
+			<point x="-642" y="633" type="line"/>
+			<point x="-642" y="525" type="line"/>
+			<point x="-237" y="334" type="line"/>
+			<point x="-237" y="330" type="line"/>
+			<point x="-642" y="131" type="line"/>
+			<point x="-642" y="31" type="line"/>
+			<point x="-362" y="164" type="line"/>
+			<point x="530" y="164" type="line"/>
+			<point x="530" y="266" type="line"/>
+			<point x="-148" y="266" type="line"/>
+			<point x="-116" y="281" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 164 102</string>
+							<string>hstem 395 103</string>
+							<string>vstem -1102 1632</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0008</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 164 102</string>
+							<string>hstem 395 103</string>
+							<string>vstem -237 121</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>4211bc4195ca691209ec45dbcee0e9fca7b6102e9824f005303850451256c6f0f97e497c024b1d6b296b25848305b1727f7d698327b1a7c6d2be8630df8abf5c</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

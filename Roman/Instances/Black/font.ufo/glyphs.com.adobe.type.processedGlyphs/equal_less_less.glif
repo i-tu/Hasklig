@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_less_less" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-115" y="317" type="line"/>
+			<point x="506" y="24" type="line"/>
+			<point x="506" y="178" type="line"/>
+			<point x="114" y="330" type="line"/>
+			<point x="114" y="334" type="line"/>
+			<point x="506" y="486" type="line"/>
+			<point x="506" y="640" type="line"/>
+			<point x="-115" y="348" type="line"/>
+		</contour>
+		<contour>
+			<point name="hintSet0008" x="-486" y="274" type="line"/>
+			<point x="-477" y="270" type="line"/>
+			<point x="-1136" y="270" type="line"/>
+			<point x="-1136" y="150" type="line"/>
+			<point x="-222" y="150" type="line"/>
+			<point x="46" y="24" type="line"/>
+			<point x="46" y="148" type="line"/>
+			<point x="-346" y="330" type="line"/>
+			<point x="-346" y="334" type="line"/>
+			<point x="46" y="526" type="line"/>
+			<point x="46" y="640" type="line"/>
+			<point x="-231" y="510" type="line"/>
+			<point x="-1136" y="510" type="line"/>
+			<point x="-1136" y="390" type="line"/>
+			<point x="-486" y="390" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 150 120</string>
+							<string>hstem 390 120</string>
+							<string>vstem -1136 1642</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0008</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 150 120</string>
+							<string>hstem 390 120</string>
+							<string>vstem -486 140</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>b5e018ce4d5b512a9dd01eb7d5570e9497b58aa35b58c3ead31938fd6321fdc6bc896d133203c6b970d5b882ecd7b3142ef45309e40bb47e46c434ff99f218e3</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

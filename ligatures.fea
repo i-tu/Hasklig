@@ -1,0 +1,311 @@
+feature calt {
+  lookup greater_equal_greater {
+    ignore sub greater greater' equal greater;
+    ignore sub greater' equal greater greater;
+    sub LIG LIG greater' by greater_equal_greater;
+    sub LIG  equal' greater  by LIG;
+    sub greater'   equal  greater  by LIG;
+  } greater_equal_greater;
+
+  lookup plus_plus_plus {
+    ignore sub plus plus' plus plus;
+    ignore sub plus' plus plus plus;
+    sub LIG LIG plus' by plus_plus_plus;
+    sub LIG  plus' plus  by LIG;
+    sub plus'   plus  plus  by LIG;
+  } plus_plus_plus;
+
+  lookup period_period_period {
+    ignore sub period period' period period;
+    ignore sub period' period period period;
+    sub LIG LIG period' by period_period_period;
+    sub LIG  period' period  by LIG;
+    sub period'   period  period  by LIG;
+  } period_period_period;
+
+  lookup less_less_less {
+    ignore sub less less' less less;
+    ignore sub less' less less less;
+    sub LIG LIG less' by less_less_less;
+    sub LIG  less' less  by LIG;
+    sub less'   less  less  by LIG;
+  } less_less_less;
+
+  lookup less_plus_greater {
+    ignore sub less less' plus greater;
+    ignore sub less' plus greater greater;
+    sub LIG LIG greater' by less_plus_greater;
+    sub LIG  plus' greater  by LIG;
+    sub less'   plus  greater  by LIG;
+  } less_plus_greater;
+
+  lookup less_hyphen_greater {
+    ignore sub less less' hyphen greater;
+    ignore sub less' hyphen greater greater;
+    sub LIG LIG greater' by less_hyphen_greater;
+    sub LIG  hyphen' greater  by LIG;
+    sub less'   hyphen  greater  by LIG;
+  } less_hyphen_greater;
+
+  lookup less_equal_less {
+    ignore sub less less' equal less;
+    ignore sub less' equal less less;
+    sub LIG LIG less' by less_equal_less;
+    sub LIG  equal' less  by LIG;
+    sub less'   equal  less  by LIG;
+  } less_equal_less;
+
+  lookup less_equal_greater {
+    ignore sub less less' equal greater;
+    ignore sub less' equal greater greater;
+    sub LIG LIG greater' by less_equal_greater;
+    sub LIG  equal' greater  by LIG;
+    sub less'   equal  greater  by LIG;
+  } less_equal_greater;
+
+  lookup less_dollar_greater {
+    ignore sub less less' dollar greater;
+    ignore sub less' dollar greater greater;
+    sub LIG LIG greater' by less_dollar_greater;
+    sub LIG  dollar' greater  by LIG;
+    sub less'   dollar  greater  by LIG;
+  } less_dollar_greater;
+
+  lookup less_bar_greater {
+    ignore sub less less' bar greater;
+    ignore sub less' bar greater greater;
+    sub LIG LIG greater' by less_bar_greater;
+    sub LIG  bar' greater  by LIG;
+    sub less'   bar  greater  by LIG;
+  } less_bar_greater;
+
+  lookup less_asterisk_greater {
+    ignore sub less less' asterisk greater;
+    ignore sub less' asterisk greater greater;
+    sub LIG LIG greater' by less_asterisk_greater;
+    sub LIG  asterisk' greater  by LIG;
+    sub less'   asterisk  greater  by LIG;
+  } less_asterisk_greater;
+
+  lookup hyphen_less_less {
+    ignore sub hyphen hyphen' less less;
+    ignore sub hyphen' less less less;
+    sub LIG LIG less' by hyphen_less_less;
+    sub LIG  less' less  by LIG;
+    sub hyphen'   less  less  by LIG;
+  } hyphen_less_less;
+
+  lookup hyphen_greater_greater {
+    ignore sub hyphen hyphen' greater greater;
+    ignore sub hyphen' greater greater greater;
+    sub LIG LIG greater' by hyphen_greater_greater;
+    sub LIG  greater' greater  by LIG;
+    sub hyphen'   greater  greater  by LIG;
+  } hyphen_greater_greater;
+
+  lookup greater_greater_hyphen {
+    ignore sub greater greater' greater hyphen;
+    ignore sub greater' greater hyphen hyphen;
+    sub LIG LIG hyphen' by greater_greater_hyphen;
+    sub LIG  greater' hyphen  by LIG;
+    sub greater'   greater  hyphen  by LIG;
+  } greater_greater_hyphen;
+
+  lookup greater_greater_greater {
+    ignore sub greater greater' greater greater;
+    ignore sub greater' greater greater greater;
+    sub LIG LIG greater' by greater_greater_greater;
+    sub LIG  greater' greater  by LIG;
+    sub greater'   greater  greater  by LIG;
+  } greater_greater_greater;
+
+  lookup greater_greater_equal {
+    ignore sub greater greater' greater equal;
+    ignore sub greater' greater equal equal;
+    sub LIG LIG equal' by greater_greater_equal;
+    sub LIG  greater' equal  by LIG;
+    sub greater'   greater  equal  by LIG;
+  } greater_greater_equal;
+
+  lookup equal_less_less {
+    ignore sub equal equal' less less;
+    ignore sub equal' less less less;
+    sub LIG LIG less' by equal_less_less;
+    sub LIG  less' less  by LIG;
+    sub equal'   less  less  by LIG;
+  } equal_less_less;
+
+  lookup equal_equal_greater {
+    ignore sub equal equal' equal greater;
+    ignore sub equal' equal greater greater;
+    sub LIG LIG greater' by equal_equal_greater;
+    sub LIG  equal' greater  by LIG;
+    sub equal'   equal  greater  by LIG;
+  } equal_equal_greater;
+
+  lookup equal_equal_equal {
+    ignore sub equal equal' equal equal;
+    ignore sub equal' equal equal equal;
+    sub LIG LIG equal' by equal_equal_equal;
+    sub LIG  equal' equal  by LIG;
+    sub equal'   equal  equal  by LIG;
+  } equal_equal_equal;
+
+  lookup colon_colon_colon {
+    ignore sub colon colon' colon colon;
+    ignore sub colon' colon colon colon;
+    sub LIG LIG colon' by colon_colon_colon;
+    sub LIG  colon' colon  by LIG;
+    sub colon'   colon  colon  by LIG;
+  } colon_colon_colon;
+
+  lookup asterisk_asterisk_asterisk {
+    ignore sub asterisk asterisk' asterisk asterisk;
+    ignore sub asterisk' asterisk asterisk asterisk;
+    ignore sub slash asterisk' asterisk asterisk;
+    ignore sub asterisk' asterisk asterisk slash;
+    sub LIG LIG asterisk' by asterisk_asterisk_asterisk;
+    sub LIG  asterisk' asterisk  by LIG;
+    sub asterisk'   asterisk  asterisk  by LIG;
+  } asterisk_asterisk_asterisk;
+
+  lookup slash_equal {
+    ignore sub slash slash' equal;
+    ignore sub slash' equal equal;
+    sub LIG equal' by slash_equal;
+    sub slash'  equal  by LIG;
+  } slash_equal;
+
+  lookup plus_plus {
+    ignore sub plus plus' plus;
+    ignore sub plus' plus plus;
+    sub LIG plus' by plus_plus;
+    sub plus'  plus  by LIG;
+  } plus_plus;
+
+  lookup period_period {
+    ignore sub period period' period;
+    ignore sub period' period period;
+    sub LIG period' by period_period;
+    sub period'  period  by LIG;
+  } period_period;
+
+  lookup less_less {
+    ignore sub less less' less;
+    ignore sub less' less less;
+    sub LIG less' by less_less;
+    sub less'  less  by LIG;
+  } less_less;
+
+  lookup less_hyphen {
+    ignore sub less less' hyphen;
+    ignore sub less' hyphen hyphen;
+    sub LIG hyphen' by less_hyphen;
+    sub less'  hyphen  by LIG;
+  } less_hyphen;
+
+  lookup less_bar {
+    ignore sub less less' bar;
+    ignore sub less' bar bar;
+    sub LIG bar' by less_bar;
+    sub less'  bar  by LIG;
+  } less_bar;
+
+  lookup less_greater {
+    ignore sub less less' greater;
+    ignore sub less' greater greater;
+    sub LIG greater' by less_greater;
+    sub less'  greater  by LIG;
+  } less_greater;
+
+  lookup less_asterisk {
+    ignore sub less less' asterisk;
+    ignore sub less' asterisk asterisk;
+    sub LIG asterisk' by less_asterisk;
+    sub less'  asterisk  by LIG;
+  } less_asterisk;
+
+  lookup hyphen_less {
+    ignore sub hyphen hyphen' less;
+    ignore sub hyphen' less less;
+    sub LIG less' by hyphen_less;
+    sub hyphen'  less  by LIG;
+  } hyphen_less;
+
+  lookup hyphen_greater {
+    ignore sub hyphen hyphen' greater;
+    ignore sub hyphen' greater greater;
+    sub LIG greater' by hyphen_greater;
+    sub hyphen'  greater  by LIG;
+  } hyphen_greater;
+
+  lookup greater_hyphen {
+    ignore sub greater greater' hyphen;
+    ignore sub greater' hyphen hyphen;
+    sub LIG hyphen' by greater_hyphen;
+    sub greater'  hyphen  by LIG;
+  } greater_hyphen;
+
+  lookup greater_greater {
+    ignore sub greater greater' greater;
+    ignore sub greater' greater greater;
+    sub LIG greater' by greater_greater;
+    sub greater'  greater  by LIG;
+  } greater_greater;
+
+  lookup exclam_exclam {
+    ignore sub exclam exclam' exclam;
+    ignore sub exclam' exclam exclam;
+    sub LIG exclam' by exclam_exclam;
+    sub exclam'  exclam  by LIG;
+  } exclam_exclam;
+
+  lookup equal_greater {
+    ignore sub equal equal' greater;
+    ignore sub equal' greater greater;
+    sub LIG greater' by equal_greater;
+    sub equal'  greater  by LIG;
+  } equal_greater;
+
+  lookup equal_equal {
+    ignore sub equal equal' equal;
+    ignore sub equal' equal equal;
+    sub LIG equal' by equal_equal;
+    sub equal'  equal  by LIG;
+  } equal_equal;
+
+  lookup colon_colon {
+    ignore sub colon colon' colon;
+    ignore sub colon' colon colon;
+    sub LIG colon' by colon_colon;
+    sub colon'  colon  by LIG;
+  } colon_colon;
+
+  lookup bar_greater {
+    ignore sub bar bar' greater;
+    ignore sub bar' greater greater;
+    sub LIG greater' by bar_greater;
+    sub bar'  greater  by LIG;
+  } bar_greater;
+
+  lookup bar_bar {
+    ignore sub bar bar' bar;
+    ignore sub bar' bar bar;
+    sub LIG bar' by bar_bar;
+    sub bar'  bar  by LIG;
+  } bar_bar;
+
+  lookup backslash_backslash {
+    ignore sub backslash backslash' backslash;
+    ignore sub backslash' backslash backslash;
+    sub LIG backslash' by backslash_backslash;
+    sub backslash'  backslash  by LIG;
+  } backslash_backslash;
+
+  lookup asterisk_greater {
+    ignore sub asterisk asterisk' greater;
+    ignore sub asterisk' greater greater;
+    sub LIG greater' by asterisk_greater;
+    sub asterisk'  greater  by LIG;
+  } asterisk_greater;
+} calt;

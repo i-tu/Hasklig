@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_hyphen_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-1177" y="332" type="line"/>
+			<point x="-694" y="24" type="line"/>
+			<point x="-694" y="178" type="line"/>
+			<point x="-847" y="270" type="line"/>
+			<point x="246" y="270" type="line"/>
+			<point x="94" y="178" type="line"/>
+			<point x="94" y="24" type="line"/>
+			<point x="577" y="331" type="line"/>
+			<point x="94" y="640" type="line"/>
+			<point x="94" y="486" type="line"/>
+			<point x="253" y="390" type="line"/>
+			<point x="-853" y="390" type="line"/>
+			<point x="-694" y="486" type="line"/>
+			<point x="-694" y="640" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 270 120</string>
+							<string>vstem -1177 1754</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w600l-1177332l-69424l-694178l-847270l246270l94178l9424l577331l94640l94486l253390l-853390l-694486l-694640</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

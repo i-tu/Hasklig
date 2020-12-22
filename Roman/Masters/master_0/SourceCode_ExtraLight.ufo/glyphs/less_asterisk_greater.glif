@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_asterisk_greater" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="476" y="348" type="line"/>
+      <point x="-89" y="639" type="line"/>
+      <point x="-89" y="603" type="line"/>
+      <point x="444" y="334" type="line"/>
+      <point x="444" y="330" type="line"/>
+      <point x="-84" y="58" type="line"/>
+      <point x="-84" y="22" type="line"/>
+      <point x="476" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1076" y="316" type="line"/>
+      <point x="-516" y="38" type="line"/>
+      <point x="-516" y="74" type="line"/>
+      <point x="-1044" y="330" type="line"/>
+      <point x="-1044" y="334" type="line"/>
+      <point x="-518" y="597" type="line"/>
+      <point x="-518" y="633" type="line"/>
+      <point x="-1076" y="348" type="line"/>
+    </contour>
+    <component base="asterisk" xOffset="-600" yOffset="42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

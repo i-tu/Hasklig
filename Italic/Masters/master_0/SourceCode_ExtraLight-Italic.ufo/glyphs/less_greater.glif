@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_greater" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-476" y="316" type="line"/>
+      <point x="-1" y="-16" type="line"/>
+      <point x="475" y="318" type="line"/>
+      <point x="475" y="350" type="line"/>
+      <point x="0" y="682" type="line"/>
+      <point x="-476" y="348" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="336" type="line"/>
+      <point x="443" y="332" type="line"/>
+      <point x="-1" y="20" type="line"/>
+      <point x="-444" y="330" type="line"/>
+      <point x="-444" y="334" type="line"/>
+      <point x="0" y="646" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

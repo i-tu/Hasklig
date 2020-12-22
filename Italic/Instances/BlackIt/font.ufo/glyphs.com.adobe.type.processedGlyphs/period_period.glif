@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-308" y="-12" type="curve"/>
+			<point x="-226" y="-12"/>
+			<point x="-170" y="51"/>
+			<point x="-170" y="128" type="curve"/>
+			<point name="hintSet0002" x="-170" y="188"/>
+			<point x="-210" y="234"/>
+			<point x="-270" y="234" type="curve"/>
+			<point x="-352" y="234"/>
+			<point x="-408" y="171"/>
+			<point x="-408" y="94" type="curve"/>
+			<point name="hintSet0004" x="-408" y="34"/>
+			<point x="-368" y="-12"/>
+		</contour>
+		<contour>
+			<point name="hintSet0005" x="192" y="-12" type="curve"/>
+			<point x="274" y="-12"/>
+			<point x="330" y="51"/>
+			<point x="330" y="128" type="curve"/>
+			<point name="hintSet0007" x="330" y="188"/>
+			<point x="290" y="234"/>
+			<point x="230" y="234" type="curve"/>
+			<point x="148" y="234"/>
+			<point x="92" y="171"/>
+			<point x="92" y="94" type="curve"/>
+			<point name="hintSet0009" x="92" y="34"/>
+			<point x="132" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 9 -21</string>
+							<string>vstem -408 238</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 246</string>
+							<string>vstem -408 238</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0004</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 9 -21</string>
+							<string>vstem -408 238</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0005</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 9 -21</string>
+							<string>vstem 92 238</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0007</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 246</string>
+							<string>vstem 92 238</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0009</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 9 -21</string>
+							<string>vstem 92 238</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>7050f5aa1a34ca1adb8e4d0d1e5f0769c941870b7dd97448ff4e3220a7fb49d99a9e3c41e792a4a113f5cdb2050c8a7eca4503bc023550e99841dc4af0230962</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

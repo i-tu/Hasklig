@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_exclam" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="195" y="255" type="line"/>
+			<point x="285" y="255" type="line"/>
+			<point x="367" y="537" type="line"/>
+			<point x="394" y="670" type="line"/>
+			<point x="253" y="670" type="line"/>
+			<point x="231" y="537" type="line"/>
+		</contour>
+		<contour>
+			<point name="hintSet0006" x="196" y="-12" type="curve"/>
+			<point x="260" y="-12"/>
+			<point x="304" y="38"/>
+			<point x="304" y="99" type="curve"/>
+			<point x="304" y="147"/>
+			<point x="272" y="181"/>
+			<point x="226" y="181" type="curve"/>
+			<point x="163" y="181"/>
+			<point x="118" y="131"/>
+			<point x="118" y="70" type="curve"/>
+			<point x="118" y="22"/>
+			<point x="150" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-305" y="255" type="line"/>
+			<point x="-215" y="255" type="line"/>
+			<point x="-133" y="537" type="line"/>
+			<point x="-106" y="670" type="line"/>
+			<point x="-247" y="670" type="line"/>
+			<point x="-269" y="537" type="line"/>
+		</contour>
+		<contour>
+			<point x="-304" y="-12" type="curve"/>
+			<point x="-240" y="-12"/>
+			<point x="-196" y="38"/>
+			<point x="-196" y="99" type="curve"/>
+			<point x="-196" y="147"/>
+			<point x="-228" y="181"/>
+			<point x="-274" y="181" type="curve"/>
+			<point x="-337" y="181"/>
+			<point x="-382" y="131"/>
+			<point x="-382" y="70" type="curve"/>
+			<point x="-382" y="22"/>
+			<point x="-350" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 193</string>
+							<string>vstem -382 776</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0006</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 193</string>
+							<string>vstem -382 186</string>
+							<string>vstem 118 186</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>731ed252a9ea83d1c15e5a3ce870781f59a934dc5a3082f034242c9d8a46e9c7e7e29576591f47e46554cfaa7bba2b4664fabdb4e21fd3983af6d0df8e40f3fc</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

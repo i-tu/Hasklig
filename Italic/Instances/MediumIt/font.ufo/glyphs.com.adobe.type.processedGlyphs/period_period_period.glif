@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period_period" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="140" y="-12" type="curve"/>
+			<point x="196" y="-12"/>
+			<point x="239" y="36"/>
+			<point x="239" y="91" type="curve"/>
+			<point x="239" y="135"/>
+			<point x="211" y="166"/>
+			<point x="169" y="166" type="curve"/>
+			<point x="112" y="166"/>
+			<point x="70" y="118"/>
+			<point x="70" y="63" type="curve"/>
+			<point x="70" y="20"/>
+			<point x="97" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-360" y="-12" type="curve"/>
+			<point x="-304" y="-12"/>
+			<point x="-261" y="36"/>
+			<point x="-261" y="91" type="curve"/>
+			<point x="-261" y="135"/>
+			<point x="-289" y="166"/>
+			<point x="-331" y="166" type="curve"/>
+			<point x="-388" y="166"/>
+			<point x="-430" y="118"/>
+			<point x="-430" y="63" type="curve"/>
+			<point x="-430" y="20"/>
+			<point x="-403" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-860" y="-12" type="curve"/>
+			<point x="-804" y="-12"/>
+			<point x="-761" y="36"/>
+			<point x="-761" y="91" type="curve"/>
+			<point x="-761" y="135"/>
+			<point x="-789" y="166"/>
+			<point x="-831" y="166" type="curve"/>
+			<point x="-888" y="166"/>
+			<point x="-930" y="118"/>
+			<point x="-930" y="63" type="curve"/>
+			<point x="-930" y="20"/>
+			<point x="-903" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 178</string>
+							<string>vstem -930 169</string>
+							<string>vstem -430 169</string>
+							<string>vstem 70 169</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>8bf93edb25b8c2a8f71fffd0b80b77d6a73c0573b9e3e4f865b6977af67b4cfc5b6d31d3d8b1e0b81d54d4cf7fba80daa7086ce15dde85302ef070a0d6787e71</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_equal" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="slash" xOffset="-530" yOffset="70" yScale="0.9"/>
+    <component base="equal_equal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

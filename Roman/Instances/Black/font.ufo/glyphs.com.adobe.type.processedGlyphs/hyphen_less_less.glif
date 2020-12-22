@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_less_less" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-1136" y="273" type="line"/>
+			<point x="-484" y="273" type="line"/>
+			<point x="46" y="24" type="line"/>
+			<point x="46" y="148" type="line"/>
+			<point x="-224" y="273" type="line"/>
+			<point x="-22" y="273" type="line"/>
+			<point x="506" y="24" type="line"/>
+			<point x="506" y="178" type="line"/>
+			<point x="114" y="330" type="line"/>
+			<point x="114" y="334" type="line"/>
+			<point x="506" y="486" type="line"/>
+			<point x="506" y="640" type="line"/>
+			<point x="-25" y="390" type="line"/>
+			<point x="-231" y="390" type="line"/>
+			<point x="46" y="526" type="line"/>
+			<point x="46" y="640" type="line"/>
+			<point x="-485" y="390" type="line"/>
+			<point x="-1136" y="390" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 273 117</string>
+							<string>vstem -1136 1642</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>2880edafe851107a03808a968f00baa51d5a96b696d5e1b38e3cf2d50db52d85d34e38c47fd4c4e70f7b94f7746d5e67f1c6180d36fa140be57ed2274b660f4f</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

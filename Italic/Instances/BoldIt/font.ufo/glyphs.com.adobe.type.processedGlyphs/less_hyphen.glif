@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_hyphen" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-563" y="332" type="line"/>
+			<point x="-98" y="31" type="line"/>
+			<point x="-98" y="164" type="line"/>
+			<point x="-278" y="278" type="line"/>
+			<point x="526" y="278" type="line"/>
+			<point x="526" y="382" type="line"/>
+			<point x="-284" y="382" type="line"/>
+			<point x="-98" y="500" type="line"/>
+			<point x="-98" y="633" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 278 104</string>
+							<string>vstem -563 1089</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w600l-563332l-9831l-98164l-278278l526278l526382l-284382l-98500l-98633</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

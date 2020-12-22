@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus_plus_plus" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-1102" y="316" type="line"/>
+      <point x="502" y="316" type="line"/>
+      <point x="502" y="344" type="line"/>
+      <point x="-1102" y="344" type="line"/>
+    </contour>
+    <component base="plus" xOffset="-125"/>
+    <component base="plus" xOffset="-600"/>
+    <component base="plus" xOffset="-1075"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

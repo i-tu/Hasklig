@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus_plus_plus" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-1130" y="278" type="line"/>
+			<point x="530" y="278" type="line"/>
+			<point x="530" y="382" type="line"/>
+			<point x="-1130" y="382" type="line"/>
+		</contour>
+		<component base="plus" xOffset="-125"/>
+		<component base="plus" xOffset="-600"/>
+		<component base="plus" xOffset="-1075"/>
+	</outline>
+</glyph>

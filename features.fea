@@ -12,3 +12,4 @@ table name {
 
 include (../../../familyGSUB.fea);
 include (../../../../familyGPOS.fea);
+include (../../../../ligatures.fea);

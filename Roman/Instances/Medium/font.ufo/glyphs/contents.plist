@@ -334,6 +334,8 @@
 		<string>K_linebelow.glif</string>
 		<key>L</key>
 		<string>L_.glif</string>
+		<key>LIG</key>
+		<string>L_I_G_.glif</string>
 		<key>Lacute</key>
 		<string>L_acute.glif</string>
 		<key>Lambda</key>
@@ -812,6 +814,8 @@
 		<string>amacron.a.glif</string>
 		<key>ampersand</key>
 		<string>ampersand.glif</string>
+		<key>ampersand_ampersand</key>
+		<string>ampersand_ampersand.glif</string>
 		<key>anoteleia</key>
 		<string>anoteleia.glif</string>
 		<key>anoteleia.cap</key>
@@ -894,6 +898,10 @@
 		<string>asterisk.glif</string>
 		<key>asterisk.a</key>
 		<string>asterisk.a.glif</string>
+		<key>asterisk_asterisk_asterisk</key>
+		<string>asterisk_asterisk_asterisk.glif</string>
+		<key>asterisk_greater</key>
+		<string>asterisk_greater.glif</string>
 		<key>at</key>
 		<string>at.glif</string>
 		<key>at.case</key>
@@ -910,8 +918,14 @@
 		<string>b.sups.glif</string>
 		<key>backslash</key>
 		<string>backslash.glif</string>
+		<key>backslash_backslash</key>
+		<string>backslash_backslash.glif</string>
 		<key>bar</key>
 		<string>bar.glif</string>
+		<key>bar_bar</key>
+		<string>bar_bar.glif</string>
+		<key>bar_greater</key>
+		<string>bar_greater.glif</string>
 		<key>bardbl</key>
 		<string>bardbl.glif</string>
 		<key>be</key>
@@ -1108,6 +1122,10 @@
 		<string>colon.glif</string>
 		<key>colon.sups</key>
 		<string>colon.sups.glif</string>
+		<key>colon_colon</key>
+		<string>colon_colon.glif</string>
+		<key>colon_colon_colon</key>
+		<string>colon_colon_colon.glif</string>
 		<key>colonmonetary</key>
 		<string>colonmonetary.glif</string>
 		<key>colontriangularhalfmod</key>
@@ -1428,6 +1446,16 @@
 		<string>epsilontonos.glif</string>
 		<key>equal</key>
 		<string>equal.glif</string>
+		<key>equal_equal</key>
+		<string>equal_equal.glif</string>
+		<key>equal_equal_equal</key>
+		<string>equal_equal_equal.glif</string>
+		<key>equal_equal_greater</key>
+		<string>equal_equal_greater.glif</string>
+		<key>equal_greater</key>
+		<string>equal_greater.glif</string>
+		<key>equal_less_less</key>
+		<string>equal_less_less.glif</string>
 		<key>equivalence</key>
 		<string>equivalence.glif</string>
 		<key>er</key>
@@ -1452,6 +1480,8 @@
 		<string>etilde.glif</string>
 		<key>exclam</key>
 		<string>exclam.glif</string>
+		<key>exclam_exclam</key>
+		<string>exclam_exclam.glif</string>
 		<key>exclamdbl</key>
 		<string>exclamdbl.glif</string>
 		<key>exclamdown</key>
@@ -1604,6 +1634,18 @@
 		<string>gravemod.glif</string>
 		<key>greater</key>
 		<string>greater.glif</string>
+		<key>greater_equal_greater</key>
+		<string>greater_equal_greater.glif</string>
+		<key>greater_greater</key>
+		<string>greater_greater.glif</string>
+		<key>greater_greater_equal</key>
+		<string>greater_greater_equal.glif</string>
+		<key>greater_greater_greater</key>
+		<string>greater_greater_greater.glif</string>
+		<key>greater_greater_hyphen</key>
+		<string>greater_greater_hyphen.glif</string>
+		<key>greater_hyphen</key>
+		<string>greater_hyphen.glif</string>
 		<key>greaterequal</key>
 		<string>greaterequal.glif</string>
 		<key>gscript</key>
@@ -1734,6 +1776,14 @@
 		<string>hyphen.a.glif</string>
 		<key>hyphen.sups</key>
 		<string>hyphen.sups.glif</string>
+		<key>hyphen_greater</key>
+		<string>hyphen_greater.glif</string>
+		<key>hyphen_greater_greater</key>
+		<string>hyphen_greater_greater.glif</string>
+		<key>hyphen_less</key>
+		<string>hyphen_less.glif</string>
+		<key>hyphen_less_less</key>
+		<string>hyphen_less_less.glif</string>
 		<key>hyphentwo</key>
 		<string>hyphentwo.glif</string>
 		<key>hyphentwo.a</key>
@@ -2006,6 +2056,34 @@
 		<string>lenistildecmb.glif</string>
 		<key>less</key>
 		<string>less.glif</string>
+		<key>less_asterisk</key>
+		<string>less_asterisk.glif</string>
+		<key>less_asterisk_greater</key>
+		<string>less_asterisk_greater.glif</string>
+		<key>less_bar</key>
+		<string>less_bar.glif</string>
+		<key>less_bar_greater</key>
+		<string>less_bar_greater.glif</string>
+		<key>less_dollar_greater</key>
+		<string>less_dollar_greater.glif</string>
+		<key>less_equal_greater</key>
+		<string>less_equal_greater.glif</string>
+		<key>less_equal_less</key>
+		<string>less_equal_less.glif</string>
+		<key>less_exclam_greater</key>
+		<string>less_exclam_greater.glif</string>
+		<key>less_greater</key>
+		<string>less_greater.glif</string>
+		<key>less_hyphen</key>
+		<string>less_hyphen.glif</string>
+		<key>less_hyphen_greater</key>
+		<string>less_hyphen_greater.glif</string>
+		<key>less_less</key>
+		<string>less_less.glif</string>
+		<key>less_less_less</key>
+		<string>less_less_less.glif</string>
+		<key>less_plus_greater</key>
+		<string>less_plus_greater.glif</string>
 		<key>lessequal</key>
 		<string>lessequal.glif</string>
 		<key>lezh</key>
@@ -2404,6 +2482,10 @@
 		<string>period.subs.glif</string>
 		<key>period.sups</key>
 		<string>period.sups.glif</string>
+		<key>period_period</key>
+		<string>period_period.glif</string>
+		<key>period_period_period</key>
+		<string>period_period_period.glif</string>
 		<key>periodcentered</key>
 		<string>periodcentered.glif</string>
 		<key>perispomeni</key>
@@ -2430,6 +2512,10 @@
 		<string>pi.glif</string>
 		<key>plus</key>
 		<string>plus.glif</string>
+		<key>plus_plus</key>
+		<string>plus_plus.glif</string>
+		<key>plus_plus_plus</key>
+		<string>plus_plus_plus.glif</string>
 		<key>plusbelowcmb</key>
 		<string>plusbelowcmb.glif</string>
 		<key>plusminus</key>
@@ -2660,6 +2746,8 @@
 		<string>slash.glif</string>
 		<key>slash.frac</key>
 		<string>slash.frac.glif</string>
+		<key>slash_equal</key>
+		<string>slash_equal.glif</string>
 		<key>smileface</key>
 		<string>smileface.glif</string>
 		<key>soft</key>

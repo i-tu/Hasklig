@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_asterisk_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="480" y="363" type="line"/>
+			<point x="-97" y="653" type="line"/>
+			<point x="-97" y="573" type="line"/>
+			<point x="408" y="334" type="line"/>
+			<point x="408" y="330" type="line"/>
+			<point x="-92" y="90" type="line"/>
+			<point x="-92" y="11" type="line"/>
+			<point x="480" y="301" type="line"/>
+		</contour>
+		<contour>
+			<point x="-1080" y="301" type="line"/>
+			<point x="-508" y="21" type="line"/>
+			<point x="-508" y="100" type="line"/>
+			<point x="-1008" y="330" type="line"/>
+			<point x="-1008" y="334" type="line"/>
+			<point x="-510" y="569" type="line"/>
+			<point x="-510" y="649" type="line"/>
+			<point x="-1080" y="363" type="line"/>
+		</contour>
+		<component base="asterisk" xOffset="-600" yOffset="42"/>
+	</outline>
+</glyph>

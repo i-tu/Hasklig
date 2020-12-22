@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_equal" format="2">
+	<advance width="600"/>
+	<outline>
+		<component base="slash" yScale="0.9" xOffset="-530" yOffset="70"/>
+		<component base="equal_equal"/>
+	</outline>
+</glyph>

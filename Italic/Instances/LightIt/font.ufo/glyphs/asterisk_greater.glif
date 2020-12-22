@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="477" y="359" type="line"/>
+			<point x="-46" y="637" type="line"/>
+			<point x="-46" y="590" type="line"/>
+			<point x="434" y="341" type="line"/>
+			<point x="434" y="337" type="line"/>
+			<point x="-44" y="81" type="line"/>
+			<point x="-44" y="33" type="line"/>
+			<point x="477" y="318" type="line"/>
+		</contour>
+		<contour>
+			<point x="-484" y="457" type="line"/>
+			<point x="-316" y="334" type="line"/>
+			<point x="-484" y="211" type="line"/>
+			<point x="-464" y="182" type="line"/>
+			<point x="-293" y="297" type="line"/>
+			<point x="-222" y="130" type="line"/>
+			<point x="-192" y="141" type="line"/>
+			<point x="-252" y="309" type="line"/>
+			<point x="-48" y="313" type="line"/>
+			<point x="-48" y="354" type="line"/>
+			<point x="-252" y="358" type="line"/>
+			<point x="-192" y="527" type="line"/>
+			<point x="-222" y="537" type="line"/>
+			<point x="-293" y="370" type="line"/>
+			<point x="-464" y="486" type="line"/>
+		</contour>
+	</outline>
+</glyph>

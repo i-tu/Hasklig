@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_dollar_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-1077" y="312" type="line"/>
+			<point x="-514" y="33" type="line"/>
+			<point x="-514" y="81" type="line"/>
+			<point x="-1034" y="330" type="line"/>
+			<point x="-1034" y="334" type="line"/>
+			<point x="-516" y="590" type="line"/>
+			<point x="-516" y="637" type="line"/>
+			<point x="-1077" y="352" type="line"/>
+		</contour>
+		<contour>
+			<point x="477" y="352" type="line"/>
+			<point x="-91" y="643" type="line"/>
+			<point x="-91" y="595" type="line"/>
+			<point x="434" y="334" type="line"/>
+			<point x="434" y="330" type="line"/>
+			<point x="-86" y="67" type="line"/>
+			<point x="-86" y="19" type="line"/>
+			<point x="477" y="312" type="line"/>
+		</contour>
+		<contour>
+			<point x="-463" y="167" type="line"/>
+			<point x="-429" y="137"/>
+			<point x="-375" y="109"/>
+			<point x="-312" y="105" type="curve"/>
+			<point x="-312" y="-8" type="line"/>
+			<point x="-276" y="-8" type="line"/>
+			<point x="-276" y="105" type="line"/>
+			<point x="-197" y="111"/>
+			<point x="-132" y="159"/>
+			<point x="-132" y="229" type="curve"/>
+			<point x="-132" y="377"/>
+			<point x="-400" y="354"/>
+			<point x="-400" y="460" type="curve"/>
+			<point x="-400" y="511"/>
+			<point x="-358" y="540"/>
+			<point x="-293" y="540" type="curve"/>
+			<point x="-234" y="540"/>
+			<point x="-212" y="523"/>
+			<point x="-176" y="492" type="curve"/>
+			<point x="-152" y="518" type="line"/>
+			<point name="hintSet0026" x="-183" y="548"/>
+			<point x="-221" y="574"/>
+			<point x="-283" y="577" type="curve"/>
+			<point name="hintSet0027" x="-283" y="669" type="line"/>
+			<point x="-319" y="669" type="line"/>
+			<point x="-319" y="575" type="line"/>
+			<point x="-389" y="567"/>
+			<point x="-442" y="522"/>
+			<point x="-442" y="459" type="curve"/>
+			<point x="-442" y="324"/>
+			<point x="-175" y="345"/>
+			<point x="-175" y="228" type="curve"/>
+			<point x="-175" y="176"/>
+			<point x="-214" y="142"/>
+			<point x="-291" y="142" type="curve"/>
+			<point x="-357" y="142"/>
+			<point x="-405" y="170"/>
+			<point x="-439" y="197" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 105 37</string>
+							<string>hstem 540 37</string>
+							<string>vstem -1077 43</string>
+							<string>vstem -442 42</string>
+							<string>vstem -312 36</string>
+							<string>vstem -175 43</string>
+							<string>vstem 434 43</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0026</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 105 37</string>
+							<string>hstem 540 37</string>
+							<string>vstem -1077 43</string>
+							<string>vstem -442 42</string>
+							<string>vstem -319 36</string>
+							<string>vstem -175 43</string>
+							<string>vstem 434 43</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0027</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 105 37</string>
+							<string>hstem 540 35</string>
+							<string>vstem -1077 43</string>
+							<string>vstem -442 42</string>
+							<string>vstem -319 36</string>
+							<string>vstem -175 43</string>
+							<string>vstem 434 43</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>b4d0abfda2e4f6c3122eab0f5fd76e4893dafb3118d7716339829e9fab57c521bb8deb72363c7ef0efc699bc73c39ef766c907ad89ede856a8bc2aa6a29409ef</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

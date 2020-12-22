@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_less_less" format="2">
+	<advance width="600"/>
+	<outline>
+		<component base="less_less"/>
+		<component base="minus" xScale="2.7042" yScale="0.9975" xOffset="-1362" yOffset="1"/>
+	</outline>
+</glyph>

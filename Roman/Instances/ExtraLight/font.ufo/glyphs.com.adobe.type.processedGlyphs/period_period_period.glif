@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period_period" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="200" y="-12" type="curve"/>
+			<point x="226" y="-12"/>
+			<point x="252" y="8"/>
+			<point x="252" y="46" type="curve"/>
+			<point x="252" y="84"/>
+			<point x="226" y="104"/>
+			<point x="200" y="104" type="curve"/>
+			<point x="174" y="104"/>
+			<point x="148" y="84"/>
+			<point x="148" y="46" type="curve"/>
+			<point x="148" y="8"/>
+			<point x="174" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-300" y="-12" type="curve"/>
+			<point x="-274" y="-12"/>
+			<point x="-248" y="8"/>
+			<point x="-248" y="46" type="curve"/>
+			<point x="-248" y="84"/>
+			<point x="-274" y="104"/>
+			<point x="-300" y="104" type="curve"/>
+			<point x="-326" y="104"/>
+			<point x="-352" y="84"/>
+			<point x="-352" y="46" type="curve"/>
+			<point x="-352" y="8"/>
+			<point x="-326" y="-12"/>
+		</contour>
+		<contour>
+			<point x="-800" y="-12" type="curve"/>
+			<point x="-774" y="-12"/>
+			<point x="-748" y="8"/>
+			<point x="-748" y="46" type="curve"/>
+			<point x="-748" y="84"/>
+			<point x="-774" y="104"/>
+			<point x="-800" y="104" type="curve"/>
+			<point x="-826" y="104"/>
+			<point x="-852" y="84"/>
+			<point x="-852" y="46" type="curve"/>
+			<point x="-852" y="8"/>
+			<point x="-826" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 116</string>
+							<string>vstem -852 104</string>
+							<string>vstem -352 104</string>
+							<string>vstem 148 104</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>651de286882a61aa8fcdc93b8bbcc3295d1af8ce32e2f4dd7225f810f5448a3b261c138b0294a6ce0c9a5b142e400f61e03702b1b02e993f8ffd9a7f4a8e04d7</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

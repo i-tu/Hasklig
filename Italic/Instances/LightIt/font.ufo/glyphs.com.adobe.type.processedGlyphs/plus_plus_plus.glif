@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus_plus_plus" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-794" y="110" type="line"/>
+			<point x="-756" y="110" type="line"/>
+			<point x="-756" y="311" type="line"/>
+			<point x="-319" y="311" type="line"/>
+			<point x="-319" y="110" type="line"/>
+			<point x="-281" y="110" type="line"/>
+			<point x="-281" y="311" type="line"/>
+			<point x="156" y="311" type="line"/>
+			<point x="156" y="110" type="line"/>
+			<point x="194" y="110" type="line"/>
+			<point x="194" y="311" type="line"/>
+			<point x="505" y="311" type="line"/>
+			<point x="505" y="349" type="line"/>
+			<point x="194" y="349" type="line"/>
+			<point x="194" y="550" type="line"/>
+			<point x="156" y="550" type="line"/>
+			<point x="156" y="349" type="line"/>
+			<point x="-281" y="349" type="line"/>
+			<point x="-281" y="550" type="line"/>
+			<point x="-319" y="550" type="line"/>
+			<point x="-319" y="349" type="line"/>
+			<point x="-756" y="349" type="line"/>
+			<point x="-756" y="550" type="line"/>
+			<point x="-794" y="550" type="line"/>
+			<point x="-794" y="349" type="line"/>
+			<point x="-1105" y="349" type="line"/>
+			<point x="-1105" y="311" type="line"/>
+			<point x="-794" y="311" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 311 38</string>
+							<string>vstem -794 38</string>
+							<string>vstem -319 38</string>
+							<string>vstem 156 38</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>c2ae7bf0efd2b601b03238c04675915df0cb019e99044d02ae2925411750835a74dcd7cd1a6c6ce864dbeab8702b7530db608ec0e5a38ddc4760a02b36380790</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

@@ -1590,6 +1590,50 @@
 					<string>robot.e</string>
 					<string>smileface.e</string>
 					<string>spade.e</string>
+					<string>greater_hyphen</string>
+					<string>greater_greater_hyphen</string>
+					<string>greater_greater_greater</string>
+					<string>greater_greater_equal</string>
+					<string>greater_greater</string>
+					<string>period_period</string>
+					<string>period_period_period</string>
+					<string>plus_plus</string>
+					<string>plus_plus_plus</string>
+					<string>less_plus_greater</string>
+					<string>less_less_less</string>
+					<string>less_less</string>
+					<string>less_hyphen</string>
+					<string>less_greater</string>
+					<string>exclam_exclam</string>
+					<string>asterisk_asterisk_asterisk</string>
+					<string>less_dollar_greater</string>
+					<string>equal_less_less</string>
+					<string>equal_greater</string>
+					<string>equal_equal_greater</string>
+					<string>equal_equal_equal</string>
+					<string>equal_equal</string>
+					<string>less_bar_greater</string>
+					<string>less_asterisk_greater</string>
+					<string>bar_bar</string>
+					<string>less_asterisk</string>
+					<string>slash_equal</string>
+					<string>hyphen_greater</string>
+					<string>hyphen_less</string>
+					<string>hyphen_less_less</string>
+					<string>colon_colon</string>
+					<string>backslash_backslash</string>
+					<string>asterisk_greater</string>
+					<string>less_bar</string>
+					<string>ampersand_ampersand</string>
+					<string>bar_greater</string>
+					<string>less_exclam_greater</string>
+					<string>hyphen_greater_greater</string>
+					<string>colon_colon_colon</string>
+					<string>greater_equal_greater</string>
+					<string>less_hyphen_greater</string>
+					<string>less_equal_greater</string>
+					<string>less_equal_less</string>
+					<string>LIG</string>
 				</array>
 				<key>type</key>
 				<string>glyphList</string>
@@ -3185,6 +3229,50 @@
 			<string>uniE0B1</string>
 			<string>uniE0B2</string>
 			<string>uniE0B3</string>
+			<string>greater_hyphen</string>
+			<string>greater_greater_hyphen</string>
+			<string>greater_greater_greater</string>
+			<string>greater_greater_equal</string>
+			<string>greater_greater</string>
+			<string>period_period</string>
+			<string>period_period_period</string>
+			<string>plus_plus</string>
+			<string>plus_plus_plus</string>
+			<string>less_plus_greater</string>
+			<string>less_less_less</string>
+			<string>less_less</string>
+			<string>less_hyphen</string>
+			<string>less_greater</string>
+			<string>exclam_exclam</string>
+			<string>asterisk_asterisk_asterisk</string>
+			<string>less_dollar_greater</string>
+			<string>equal_less_less</string>
+			<string>equal_greater</string>
+			<string>equal_equal_greater</string>
+			<string>equal_equal_equal</string>
+			<string>equal_equal</string>
+			<string>less_bar_greater</string>
+			<string>less_asterisk_greater</string>
+			<string>bar_bar</string>
+			<string>less_asterisk</string>
+			<string>slash_equal</string>
+			<string>hyphen_greater</string>
+			<string>hyphen_less</string>
+			<string>hyphen_less_less</string>
+			<string>colon_colon</string>
+			<string>backslash_backslash</string>
+			<string>asterisk_greater</string>
+			<string>less_bar</string>
+			<string>ampersand_ampersand</string>
+			<string>bar_greater</string>
+			<string>less_exclam_greater</string>
+			<string>hyphen_greater_greater</string>
+			<string>colon_colon_colon</string>
+			<string>greater_equal_greater</string>
+			<string>less_hyphen_greater</string>
+			<string>less_equal_greater</string>
+			<string>less_equal_less</string>
+			<string>LIG</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-515" y="299" type="line"/>
+			<point x="358" y="299" type="line"/>
+			<point x="107" y="127" type="line"/>
+			<point x="107" y="48" type="line"/>
+			<point x="527" y="331" type="line"/>
+			<point x="107" y="616" type="line"/>
+			<point x="107" y="537" type="line"/>
+			<point x="365" y="361" type="line"/>
+			<point x="-515" y="361" type="line"/>
+		</contour>
+	</outline>
+</glyph>

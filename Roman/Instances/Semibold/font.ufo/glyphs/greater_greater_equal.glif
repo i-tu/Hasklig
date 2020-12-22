@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_greater_equal" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-345" y="400" type="line"/>
+			<point x="522" y="400" type="line"/>
+			<point x="522" y="484" type="line"/>
+			<point x="-361" y="484" type="line"/>
+		</contour>
+		<contour>
+			<point x="-354" y="178" type="line"/>
+			<point x="522" y="178" type="line"/>
+			<point x="522" y="260" type="line"/>
+			<point x="-354" y="260" type="line"/>
+		</contour>
+		<contour>
+			<point x="-515" y="343" type="line"/>
+			<point x="-1098" y="625" type="line"/>
+			<point x="-1098" y="518" type="line"/>
+			<point x="-675" y="334" type="line"/>
+			<point x="-675" y="330" type="line"/>
+			<point x="-1098" y="146" type="line"/>
+			<point x="-1098" y="39" type="line"/>
+			<point x="-515" y="321" type="line"/>
+		</contour>
+		<contour>
+			<point x="-118" y="373" type="line"/>
+			<point x="-638" y="625" type="line"/>
+			<point x="-638" y="536" type="line"/>
+			<point x="-215" y="334" type="line"/>
+			<point x="-215" y="330" type="line"/>
+			<point x="-638" y="122" type="line"/>
+			<point x="-638" y="39" type="line"/>
+			<point x="-118" y="291" type="line"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_dollar_greater" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="-1076" y="316" type="line"/>
+			<point x="-516" y="38" type="line"/>
+			<point x="-516" y="74" type="line"/>
+			<point x="-1044" y="330" type="line"/>
+			<point x="-1044" y="334" type="line"/>
+			<point x="-518" y="597" type="line"/>
+			<point x="-518" y="633" type="line"/>
+			<point x="-1076" y="348" type="line"/>
+		</contour>
+		<contour>
+			<point x="476" y="348" type="line"/>
+			<point x="-89" y="639" type="line"/>
+			<point x="-89" y="603" type="line"/>
+			<point x="444" y="334" type="line"/>
+			<point x="444" y="330" type="line"/>
+			<point x="-84" y="58" type="line"/>
+			<point x="-84" y="22" type="line"/>
+			<point x="476" y="316" type="line"/>
+		</contour>
+		<contour>
+			<point x="-460" y="166" type="line"/>
+			<point x="-427" y="138"/>
+			<point x="-374" y="109"/>
+			<point x="-309" y="105" type="curve"/>
+			<point x="-309" y="-8" type="line"/>
+			<point x="-279" y="-8" type="line"/>
+			<point name="hintSet0020" x="-279" y="104" type="line"/>
+			<point x="-202" y="109"/>
+			<point x="-135" y="156"/>
+			<point x="-135" y="227" type="curve"/>
+			<point x="-135" y="374"/>
+			<point x="-406" y="349"/>
+			<point x="-406" y="462" type="curve"/>
+			<point x="-406" y="517"/>
+			<point x="-360" y="549"/>
+			<point x="-292" y="549" type="curve"/>
+			<point x="-231" y="549"/>
+			<point x="-209" y="531"/>
+			<point x="-174" y="500" type="curve"/>
+			<point x="-154" y="520" type="line"/>
+			<point name="hintSet0026" x="-186" y="550"/>
+			<point x="-222" y="575"/>
+			<point x="-286" y="577" type="curve"/>
+			<point name="hintSet0027" x="-286" y="667" type="line"/>
+			<point x="-316" y="667" type="line"/>
+			<point x="-316" y="576" type="line"/>
+			<point x="-384" y="568"/>
+			<point x="-437" y="524"/>
+			<point x="-437" y="461" type="curve"/>
+			<point x="-437" y="328"/>
+			<point x="-167" y="350"/>
+			<point x="-167" y="226" type="curve"/>
+			<point x="-167" y="170"/>
+			<point x="-209" y="133"/>
+			<point x="-291" y="133" type="curve"/>
+			<point x="-359" y="133"/>
+			<point x="-409" y="162"/>
+			<point x="-441" y="189" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 105 28</string>
+							<string>hstem 549 28</string>
+							<string>vstem -1076 32</string>
+							<string>vstem -437 31</string>
+							<string>vstem -309 30</string>
+							<string>vstem -167 32</string>
+							<string>vstem 444 32</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0020</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 104 29</string>
+							<string>hstem 549 28</string>
+							<string>vstem -1076 32</string>
+							<string>vstem -437 31</string>
+							<string>vstem -309 30</string>
+							<string>vstem -167 32</string>
+							<string>vstem 444 32</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0026</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 105 28</string>
+							<string>hstem 549 28</string>
+							<string>vstem -1076 32</string>
+							<string>vstem -437 31</string>
+							<string>vstem -316 30</string>
+							<string>vstem -167 32</string>
+							<string>vstem 444 32</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0027</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 13 -21</string>
+							<string>hstem 105 28</string>
+							<string>hstem 549 27</string>
+							<string>vstem -1076 32</string>
+							<string>vstem -437 31</string>
+							<string>vstem -316 30</string>
+							<string>vstem -167 32</string>
+							<string>vstem 444 32</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>9eb55829098ffdad4922fb7ec0ddc75c3c7b50a8a8274b194ba60866dd4914a62b08fd2aff4e279a707e3b7231b5a9ce51e48775524fcedb76f9a5ff684e3af0</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

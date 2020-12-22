@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_asterisk_asterisk" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hintSet0000" x="82" y="101" type="line"/>
+			<point x="200" y="251" type="line"/>
+			<point x="318" y="101" type="line"/>
+			<point x="371" y="138" type="line"/>
+			<point x="268" y="299" type="line"/>
+			<point x="426" y="368" type="line"/>
+			<point x="407" y="427" type="line"/>
+			<point x="242" y="378" type="line"/>
+			<point x="232" y="561" type="line"/>
+			<point x="168" y="561" type="line"/>
+			<point x="158" y="378" type="line"/>
+			<point x="-7" y="427" type="line"/>
+			<point x="-26" y="368" type="line"/>
+			<point x="132" y="299" type="line"/>
+			<point x="29" y="138" type="line"/>
+		</contour>
+		<contour>
+			<point x="-402" y="297" type="line"/>
+			<point x="-300" y="430" type="line"/>
+			<point x="-198" y="297" type="line"/>
+			<point x="-145" y="334" type="line"/>
+			<point x="-232" y="478" type="line"/>
+			<point x="-94" y="534" type="line"/>
+			<point x="-113" y="593" type="line"/>
+			<point x="-258" y="556" type="line"/>
+			<point x="-268" y="712" type="line"/>
+			<point x="-332" y="712" type="line"/>
+			<point x="-342" y="555" type="line"/>
+			<point x="-487" y="593" type="line"/>
+			<point x="-506" y="534" type="line"/>
+			<point x="-368" y="478" type="line"/>
+			<point x="-455" y="334" type="line"/>
+		</contour>
+		<contour>
+			<point x="-918" y="101" type="line"/>
+			<point x="-800" y="251" type="line"/>
+			<point x="-682" y="101" type="line"/>
+			<point x="-629" y="138" type="line"/>
+			<point x="-732" y="299" type="line"/>
+			<point x="-574" y="368" type="line"/>
+			<point x="-593" y="427" type="line"/>
+			<point x="-758" y="378" type="line"/>
+			<point x="-768" y="561" type="line"/>
+			<point x="-832" y="561" type="line"/>
+			<point x="-842" y="378" type="line"/>
+			<point x="-1007" y="427" type="line"/>
+			<point x="-1026" y="368" type="line"/>
+			<point x="-868" y="299" type="line"/>
+			<point x="-971" y="138" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hintSet0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 712 -20</string>
+							<string>vstem -837 74</string>
+							<string>vstem -337 74</string>
+							<string>vstem 163 74</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>333846e55f5a7eb1d8f57090ac82a74786bf2381e16f8622980f3765e9f420de1d5abd5788b54dccd7139e22ad6724d053434e414f0eccf691804986c52fa36c</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>
