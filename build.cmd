@@ -47,8 +47,8 @@ call makeotf -f "%~dp0\%1\%2\font.ufo" -r -o "%TARGET_OTF_PATH%\%FAMILY%-%2.otf"
 call makeotf -f "%~dp0\%1\%2\font.ttf" -r -o "%TARGET_TTF_PATH%\%FAMILY%-%2.ttf"
 :: remove default options file from the source tree after building
 del "%~dp0\%1\%2\current.fpr"
-"%PYTHON_PATH%" "%~dp0\addSVGtable.py" "%TARGET_OTF_PATH%\%FAMILY%-%2.otf" "%~dp0\svg"
-"%PYTHON_PATH%" "%~dp0\addSVGtable.py" "%TARGET_TTF_PATH%\%FAMILY%-%2.ttf" "%~dp0\svg"
+:: "%PYTHON_PATH%" "%~dp0\addSVGtable.py" "%TARGET_OTF_PATH%\%FAMILY%-%2.otf" "%~dp0\svg"
+:: "%PYTHON_PATH%" "%~dp0\addSVGtable.py" "%TARGET_TTF_PATH%\%FAMILY%-%2.ttf" "%~dp0\svg"
 goto :eof
 
 :error_makeotf_not_found
