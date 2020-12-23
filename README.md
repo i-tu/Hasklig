@@ -12,7 +12,7 @@ Hasklig solves the problem the way typographers have always solved ill-fitting c
 
 Not only can multi-character glyphs be rendered more vividly, other problematic things in monospaced fonts, such as spacing can be corrected.
 
-[**Download Hasklig Font Family v1.1**](https://github.com/i-tu/Hasklig/releases/download/1.1/Hasklig-1.1.zip)
+[**Download Hasklig Font Family v1.2**](https://github.com/i-tu/Hasklig/releases/download/v1.2/Hasklig-1.2.zip)
 
 #### Hasklig
 ![Hasklig Sample](hasklig_example.png?raw=true)
@@ -21,6 +21,9 @@ Not only can multi-character glyphs be rendered more vividly, other problematic 
 ![Source Code Pro Sample](SourceCodeProSample.png?raw=true)
 
 ### Release notes
++ [v1.2](https://github.com/i-tu/Hasklig/releases/tag/v1.2)
+    + Include latest changes from the Source Code Pro repository master branch
+    + Most notably, this update resolves #123 (No color on macOS Big Sur)
 + [v1.1](https://github.com/i-tu/Hasklig/releases/tag/1.1)
     + New ligatures `->>`, `:::`, `>=>`, `<=<`, `<=>`, `<->`
     + Switched to newer version of calt code by [Nikita Prokopov](https://github.com/tonsky/FiraCode). It "doesn’t apply ligatures to long sequences of chars, e.g. !!!!, >>>>, etc"
