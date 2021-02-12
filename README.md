@@ -34,10 +34,10 @@ Some SVG glyphs are inserted into the fonts using Python [FontTools](https://pyp
 
 This repository only includes so-called *master* weights of the fonts (effectively extralight and black).
 The shapes of the weights in between these extremities are calculated by `makeInstancesUFO` supplied with `.designspace` files.
-For convenience, the shell script **buildInstances** is provided, which  executes `makeInstancesUFO`, calculating all the italic and regular font weight shapes.
+For convenience, the shell script **makeInstances** is provided, which  executes `makeInstancesUFO`, calculating all the italic and regular font weight shapes.
 
 ```sh
-$ ./buildInstances.sh
+$ ./makeInstances.sh
 ```
 
 #### Building one font
