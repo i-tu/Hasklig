@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 ro_name=SourceCodeVariable-Roman
 it_name=SourceCodeVariable-Italic
