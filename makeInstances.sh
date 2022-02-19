@@ -1,2 +1,2 @@
-makeInstancesUFO -d Roman/Masters/SourceCodePro.designspace
-makeInstancesUFO -d Italic/Masters/SourceCodePro-Italic.designspace
+makeinstancesufo -d Roman/Masters/SourceCodePro.designspace
+makeinstancesufo -d Italic/Masters/SourceCodePro-Italic.designspace
